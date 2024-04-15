@@ -9,6 +9,15 @@
 # User-specific files
 .Ruserdata
 
+# Specific files and folders
+/vcf
+/results
+/alignments
+/data-raw/SNPs/bam.files
+/data-raw/SNPs/sam.files
+/data-raw/SNPs/fastq
+/BEAST/xml
+
 # Example code in package build process
 *-Ex.R
 
