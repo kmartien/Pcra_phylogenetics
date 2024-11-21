@@ -1,0 +1,118 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    SWC-KMARTIEN1-ML.local (SSE4.2, 36 GB RAM)
+Command: iqtree -s alignments/aln1_Pcra-outgroups_full-mito.phy -p IQtree/aln.1.best.nex -B 1000 -T AUTO --prefix IQtree/aln.1.best/aln.1.best
+Seed:    96812 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug 15 13:29:18 2024
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading partition model file IQtree/aln.1.best.nex ...
+Reading alignment file alignments/aln1_Pcra-outgroups_full-mito.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 83 sequences with 16421 columns, 1940 distinct patterns
+2401 parsimony-informative, 1458 singleton sites, 12562 constant sites
+                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000139952 secs using 285.8% CPU
+   1  NC_050265_Lacu         0.23%    passed     88.61%
+   2  NC_045404_Steu         0.23%    passed     87.80%
+   3  NC_012059_Ttru         0.20%    passed     61.14%
+   4  MH000365_Ddel          0.21%    passed     42.16%
+   5  MG599457_Lhos          0.19%    passed     38.76%
+   6  NC_042761_Sbre         0.21%    passed     96.05%
+   7  MH992390_Lobl          0.18%    passed     98.44%
+   8  JN632624_Chea          0.30%    passed     75.29%
+   9  JF289171_Fatt          0.21%    passed     99.64%
+  10  ON652887_Pele          0.19%    passed     97.26%
+  11  MK790780_Gmac_Naisa    0.19%    passed     97.55%
+  12  MK790767_Gmac_Shiho    0.19%    passed     96.76%
+  13  NC_083222_Gmel         0.19%    passed     98.71%
+  14  NC_012062_Ggri         0.21%    passed     80.24%
+  15  NC_019590_Obre         0.24%    passed     67.72%
+  16  MT410901_Lalb          0.17%    passed     44.98%
+  17  KF418381_Oorc          0.21%    passed     25.40%
+  18  Pcra.mito.20           0.24%    passed     99.83%
+  19  Pcra.mito.21           0.25%    passed     99.94%
+  20  Pcra.mito.63           0.76%    passed     99.55%
+  21  Pcra.mito.22           0.24%    passed     99.90%
+  22  Pcra.mito.23           0.24%    passed     99.89%
+  23  Pcra.mito.24           0.24%    passed     99.94%
+  24  Pcra.mito.05           0.24%    passed     99.92%
+  25  Pcra.mito.25           0.29%    passed     99.83%
+  26  Pcra.mito.67           0.24%    passed     99.76%
+  27  Pcra.mito.26           0.24%    passed     99.94%
+  28  Pcra.mito.27           0.24%    passed     99.91%
+  29  Pcra.mito.04           0.24%    passed     99.86%
+  30  Pcra.mito.10           0.23%    passed     99.83%
+  31  Pcra.mito.28           0.26%    passed     99.93%
+  32  Pcra.mito.29           0.24%    passed     99.82%
+  33  Pcra.mito.06           0.24%    passed     99.86%
+  34  Pcra.mito.01           0.24%    passed     99.89%
+  35  Pcra.mito.30           0.24%    passed     99.77%
+  36  Pcra.mito.11           0.27%    passed     99.80%
+  37  Pcra.mito.31           0.24%    passed     99.93%
+  38  Pcra.mito.12           0.24%    passed     99.86%
+  39  Pcra.mito.32           0.24%    passed     99.90%
+  40  Pcra.mito.33           0.24%    passed     99.77%
+  41  Pcra.mito.60           0.26%    passed     99.96%
+  42  Pcra.mito.34           0.24%    passed     99.92%
+  43  Pcra.mito.66           0.26%    passed     99.94%
+  44  Pcra.mito.35           0.24%    passed     99.82%
+  45  Pcra.mito.09           0.24%    passed     99.91%
+  46  Pcra.mito.36           0.24%    passed     99.86%
+  47  Pcra.mito.37           0.24%    passed     99.77%
+  48  Pcra.mito.38           0.24%    passed     99.86%
+  49  Pcra.mito.02           0.24%    passed     99.75%
+  50  Pcra.mito.39           0.24%    passed     99.68%
+  51  Pcra.mito.13           0.24%    passed     99.83%
+  52  Pcra.mito.40           0.24%    passed     99.89%
+  53  Pcra.mito.41           0.24%    passed     99.85%
+  54  Pcra.mito.07           0.24%    passed     99.96%
+  55  Pcra.mito.42           0.24%    passed     99.91%
+  56  Pcra.mito.43           0.25%    passed     99.93%
+  57  Pcra.mito.44           0.24%    passed     99.94%
+  58  Pcra.mito.64           0.29%    passed     99.83%
+  59  Pcra.mito.65           0.33%    passed     99.80%
+  60  Pcra.mito.45           0.48%    passed     99.78%
+  61  Pcra.mito.08           0.24%    passed     99.86%
+  62  Pcra.mito.46           0.24%    passed     99.75%
+  63  Pcra.mito.14           0.23%    passed     99.76%
+  64  Pcra.mito.15           0.23%    passed     99.67%
+  65  Pcra.mito.59           0.30%    passed     99.77%
+  66  Pcra.mito.47           0.24%    passed     99.91%
+  67  Pcra.mito.16           0.24%    passed     99.89%
+  68  Pcra.mito.48           0.24%    passed     99.94%
+  69  Pcra.mito.49           0.24%    passed     99.77%
+  70  Pcra.mito.50           0.24%    passed     99.75%
+  71  Pcra.mito.51           0.24%    passed     99.92%
+  72  Pcra.mito.17           0.24%    passed     99.85%
+  73  Pcra.mito.61           0.27%    passed     99.92%
+  74  Pcra.mito.18           0.24%    passed     99.92%
+  75  Pcra.mito.52           0.24%    passed     99.91%
+  76  Pcra.mito.53           0.24%    passed     99.93%
+  77  Pcra.mito.54           0.24%    passed     99.95%
+  78  Pcra.mito.55           0.24%    passed     99.78%
+  79  Pcra.mito.56           0.24%    passed     99.92%
+  80  Pcra.mito.57           0.24%    passed     99.88%
+  81  Pcra.mito.03           0.24%    passed     99.82%
+  82  Pcra.mito.58           0.24%    passed     99.91%
+  83  Pcra.mito.19           0.23%    passed     99.83%
+****  TOTAL                  0.25%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Loading 4 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	83	7448	646	6306	TN+F+I+G4	ND1_pos1_ND2_pos1_COX2_pos1_ATP8_pos1_ATP8_pos2_ATP6_pos1_ATP6_pos2_COX3_pos1_ND3_pos1_ND4L_pos1_ND4_pos1_ND5_pos1_ND6_pos3_CYTB_pos1_12S_16S_tRNA_Phe_tRNA_Val_tRNA_Leu_tRNA_Ile_tRNA_Gln_tRNA_Met_tRNA_Trp_tRNA_Cys_tRNA_Tyr_tRNA_Ser_tRNA_Asp_tRNA_Lys_tRNA_Gly_tRNA_Arg_tRNA_His_tRNA_Ser2_tRNA_Leu2_tRNA_Glu_tRNA_Thr_rep_origin
+2	DNA	83	4217	130	3965	HKY+F+I+G4	ND1_pos2_ND2_pos2_COX1_pos1_COX1_pos2_COX2_pos2_COX3_pos2_ND3_pos2_ND4L_pos2_ND4_pos2_ND5_pos2_ND6_pos2_CYTB_pos2_tRNA_Ala_tRNA_Asn_tRNA_Pro
+3	DNA	83	3778	1484	1547	TIM2+F+I+G4	ND1_pos3_ND2_pos3_COX1_pos3_COX2_pos3_ATP8_pos3_ATP6_pos3_COX3_pos3_ND3_pos3_ND4L_pos3_ND4_pos3_ND5_pos3_ND6_pos1_CYTB_pos3
+4	DNA	83	928	131	707	TPM2u+F+I+G4	D_loop
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 96812)...
+
+NOTE: 34 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths

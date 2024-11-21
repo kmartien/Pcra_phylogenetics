@@ -1,0 +1,186 @@
+IQ-TREE 2.3.6 built Aug  4 2024
+
+Partition file name: IQtree/aln4-partition.nex
+Input file name: alignments/aln4-4Pcra.phy
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 607074
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 29 taxa with 6 partitions and 16362 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	29	7131	764	693	5946	5946	ND1_pos1+ND2_pos1+COX2_pos1+ATP8_pos1+ATP8_pos2+ATP6_pos1+ATP6_pos2+COX3_pos1+ND3_pos1+ND4_pos1+ND5_pos1+ND6_pos1+CYTB_pos1+12S_rRNA+16S_rRNA+tRNA_Phe+tRNA_Val+tRNA_Leu+tRNA_Ile+tRNA_Gln+tRNA_Met+tRNA_Trp+tRNA_Tyr+tRNA_Ser+tRNA_Asp+tRNA_Lys+tRNA_Gly+tRNA_His+tRNA_Leu2+tRNA_Glu+tRNA_Thr
+   2	DNA	29	2675	102	63	2550	2550	ND1_pos2+ND2_pos2+COX1_pos2+COX2_pos2+COX3_pos2+ND4L_pos2+ND4_pos2+CYTB_pos2+tRNA_Pro
+   3	DNA	29	2754	1209	1236	995	995	ND1_pos3+ND2_pos3+COX3_pos3+ND3_pos3+ND4L_pos3+ND4_pos3+ND5_pos3+ND6_pos3+CYTB_pos3
+   4	DNA	29	1552	126	81	1407	1407	COX1_pos1+ND3_pos2+ND5_pos2+ND6_pos2+tRNA_Ala+tRNA_Asn
+   5	DNA	29	1024	490	438	383	383	COX1_pos3+COX2_pos3+ATP8_pos3+ATP6_pos3
+   6	DNA	29	1226	301	184	900	900	ND4L_pos1+D_loop+tRNA_Cys+tRNA_Arg+tRNA_Ser2
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+I+G4:ND1_pos1+ND2_pos1+COX2_pos1+ATP8_pos1+ATP8_pos2+ATP6_pos1+ATP6_pos2+COX3_pos1+ND3_pos1+ND4_pos1+ND5_pos1+ND6_pos1+CYTB_pos1+12S_rRNA+16S_rRNA+tRNA_Phe+tRNA_Val+tRNA_Leu+tRNA_Ile+tRNA_Gln+tRNA_Met+tRNA_Trp+tRNA_Tyr+tRNA_Ser+tRNA_Asp+tRNA_Lys+tRNA_Gly+tRNA_His+tRNA_Leu2+tRNA_Glu+tRNA_Thr,HKY+F+I+G4:ND1_pos2+ND2_pos2+COX1_pos2+COX2_pos2+COX3_pos2+ND4L_pos2+ND4_pos2+CYTB_pos2+tRNA_Pro,TIM2+F+I+G4:ND1_pos3+ND2_pos3+COX3_pos3+ND3_pos3+ND4L_pos3+ND4_pos3+ND5_pos3+ND6_pos3+CYTB_pos3,HKY+F+I+G4:COX1_pos1+ND3_pos2+ND5_pos2+ND6_pos2+tRNA_Ala+tRNA_Asn,TN+F+G4:COX1_pos3+COX2_pos3+ATP8_pos3+ATP6_pos3,HKY+F+I+G4:ND4L_pos1+D_loop+tRNA_Cys+tRNA_Arg+tRNA_Ser2
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  TIM2+F+I+G4      -21728.550   43475.099 + 3.04e-314   43475.125 + 1.35e+112   43536.949 + 2.64e-314
+   2  HKY+F+I+G4        -4775.409    9564.819 + 3.04e-314    9564.861 + 1.35e+112    9606.061 + 2.64e-314
+   3  TIM2+F+I+G4      -20114.485   40246.970 + 3.04e-314   40247.036 + 1.35e+112   40300.257 + 2.64e-314
+   4  HKY+F+I+G4        -3556.259    7126.518 + 3.04e-314    7126.590 + 1.35e+112    7163.949 + 2.64e-314
+   5  TN+F+G4           -7263.505   14541.010 + 3.04e-314   14541.121 + 1.35e+112   14575.531 + 2.64e-314
+   6  HKY+F+I+G4        -5381.090   10776.179 + 3.04e-314   10776.271 + 1.35e+112   10811.960 + 2.64e-314
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  TIM2+F+I+G4    0.5009  TIM2{2.1438,42.0035,62.2699}+F{0.34152,0.243966,0.1677,0.246813}+I{0.663334}+G4{0.785477}
+   2  HKY+F+I+G4     0.1088  HKY{78.2007}+F{0.198025,0.266715,0.122721,0.412539}+I{0.863464}+G4{0.655731}
+   3  TIM2+F+I+G4    2.8888  TIM2{0.39519,79.7574,27.893}+F{0.438601,0.329697,0.0222005,0.209501}+I{0.0622353}+G4{3.82918}
+   4  HKY+F+I+G4     0.2359  HKY{50.3232}+F{0.277528,0.234425,0.16817,0.319876}+I{0.777599}+G4{0.753689}
+   5  TN+F+G4        2.4605  TN{100,53.4213}+F{0.423453,0.267192,0.0454301,0.263925}+G4{1.58865}
+   6  HKY+F+I+G4     1.3519  HKY{25.6108}+F{0.305911,0.234252,0.151159,0.308677}+I{0.52054}+G4{0.488267}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -62824.3732 (s.e. 583.6241)
+Unconstrained log-likelihood (without tree): -49529.8544
+Number of free parameters (#branches + #model parameters): 100
+Akaike information criterion (AIC) score: 125848.7464
+Corrected Akaike information criterion (AICc) score: 125849.9887
+Bayesian information criterion (BIC) score: 126619.0181
+
+Total tree length (sum of branch lengths): 0.7448
+Sum of internal branch lengths: 0.1942 (26.0773% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Pcra.mito.10' is drawn at root
+
++--Pcra.mito.10
+|
+|     +--Pcra.mito.11
+|  +--|
+|  |  +--Pcra.mito.66
++--|
+|  |                                             +----------JN632624_Chea
+|  |                                +------------|
+|  |                                |            +-------MH992390_Lobl
+|  |                             +--|
+|  |                             |  +------------------------------KF418381_Oorc
+|  |                          +--|
+|  |                          |  |  +---------------------------MT410901_Lalb
+|  |                          |  +--|
+|  |                          |     +------------------------------NC_050265_Lacu
+|  |                       +--|
+|  |                       |  |  +-------------------NC_042761_Sbre
+|  |                       |  +--|
+|  |                       |     |                                +---MH000365_Ddel
+|  |                       |     |                             +--|
+|  |                       |     |                             |  +----EU557092_Tadu
+|  |                       |     |                          +--|
+|  |                       |     |                          |  |  +--NC_060611_Scly
+|  |                       |     |                          |  +--|
+|  |                       |     |                          |     +--MT410956_Scoe
+|  |                       |     |                       +--|
+|  |                       |     |                       |  +---NC_060612_Sfro
+|  |                       |     |                    +--|
+|  |                       |     |                    |  +-------NC_012059_Ttru
+|  |                       |     |                 +--|
+|  |                       |     |                 |  |  +----NC_012057_Schi
+|  |                       |     |                 |  +--|
+|  |                       |     |                 |     +---NC_045404_Steu
+|  |                       |     |              +--|
+|  |                       |     |              |  +------KX857383_Slon
+|  |                       |     |           +--|
+|  |                       |     |           |  +--------MG599457_Lhos
+|  |                       |     +-----------|
+|  |                       |                 +--------KX857264_Satt
+|  |                 +-----|
+|  |                 |     |       +---------------NC_019590_Obre
+|  |                 |     +-------|
+|  |                 |             +----------------PP829132_Ohei
+|  |              +--|
+|  |              |  +------------NC_012062_Ggri
+|  +--------------|
+|                 |       +--------JF289171_Fatt
+|                 |    +--|
+|                 |    |  +--------ON652887_Pele
+|                 +----|
+|                      |         +--MK790767_Gmac_Shiho
+|                      |      +--|
+|                      |      |  +--MK790780_Gmac_Naisa
+|                      +------|
+|                             +--NC_083222_Gmel
+|
++--Pcra.mito.55
+
+Tree in newick format:
+
+(Pcra.mito.10:0.0003785990,((Pcra.mito.11:0.0007004570,Pcra.mito.66:0.0008372752):0.0013081658,(((((((JN632624_Chea:0.0238551495,MH992390_Lobl:0.0168827494):0.0267281963,KF418381_Oorc:0.0635960861):0.0017244958,(MT410901_Lalb:0.0576274827,NC_050265_Lacu:0.0629249566):0.0034344377):0.0014693457,(NC_042761_Sbre:0.0422590637,((((((((MH000365_Ddel:0.0081515642,EU557092_Tadu:0.0111266105):0.0005158638,(NC_060611_Scly:0.0066918117,MT410956_Scoe:0.0073830506):0.0025665832):0.0003515210,NC_060612_Sfro:0.0093783772):0.0040928246,NC_012059_Ttru:0.0182082806):0.0027892200,(NC_012057_Schi:0.0121214532,NC_045404_Steu:0.0093027544):0.0076477720):0.0007842869,KX857383_Slon:0.0147491571):0.0038212743,MG599457_Lhos:0.0191204171):0.0011070659,KX857264_Satt:0.0202485174):0.0252739959):0.0073906642):0.0024156242,(NC_019590_Obre:0.0329758856,PP829132_Ohei:0.0355719244):0.0170111694):0.0133429923,NC_012062_Ggri:0.0278185448):0.0049453286,((JF289171_Fatt:0.0200219828,ON652887_Pele:0.0197064270):0.0014732894,((MK790767_Gmac_Shiho:0.0011147485,MK790780_Gmac_Naisa:0.0013406588):0.0040926477,NC_083222_Gmel:0.0060669519):0.0160721559):0.0108626103):0.0315133308):0.0015007961,Pcra.mito.55:0.0004494679);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t IQtree/aln.4.all/aln.4.all.treefile -p IQtree/aln.4.all/aln.4.all.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alignments/aln4-4Pcra.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alignments/aln4-4Pcra.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Aug 22 16:11:32 2024
+Total CPU time used: 141.187 seconds (0h:2m:21s)
+Total wall-clock time used: 68.3497 seconds (0h:1m:8s)
+

@@ -17,6 +17,11 @@ mito.hap.freqs <-
         bind_cols(stratum = i)
     })) %>% 
   pivot_wider(names_from = stratum, values_from = freq) %>% 
+  arrange(mito.hap) %>% 
   column_to_rownames("mito.hap")
+write.csv(mito.hap.freqs, file = paste0("results-raw/mito.hap.freqs.", strat, ".csv"))
 
-
+hap.locs <- lapply(1:nrow(mito.hap.freqs), function(i){
+  names(mito.hap.freqs)[which(!is.na(mito.hap.freqs[i,]))]
+})
+names(hap.locs) <- rownames(mito.hap.freqs)

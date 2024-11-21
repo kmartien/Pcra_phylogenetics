@@ -1,0 +1,269 @@
+IQ-TREE 2.3.6 built Aug  4 2024
+
+Partition file name: IQtree/all_partition.nex
+Input file name: alignments/aln3_Pcra-unique_full-mito.phy
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 894197
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 66 taxa with 8 partitions and 16371 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	66	1239	22	12	1223	1223	ND1_pos1+COX3_pos2+ND4L_pos2+tRNA_Phe+tRNA_Ala+tRNA_Asn+tRNA_Cys+tRNA_Tyr+tRNA_Gly+tRNA_Arg+tRNA_His
+   2	DNA	66	1500	19	5	1492	1492	ND1_pos2+ND2_pos2+ATP6_pos2+ND5_pos2
+   3	DNA	66	1612	27	17	1588	1588	ND1_pos3+ND2_pos3+ATP6_pos3+COX3_pos3+ND4_pos3
+   4	DNA	66	2221	31	9	2204	2204	ND2_pos1+COX2_pos2+ATP6_pos1+COX3_pos1+ND5_pos1+ND6_pos2+CYTB_pos1
+   5	DNA	66	4542	34	2	4533	4533	COX1_pos1+COX2_pos1+ATP8_pos1+ATP8_pos2+ND3_pos1+ND6_pos3+12S+16S+tRNA_Leu+tRNA_Ile+tRNA_Gln+tRNA_Met+tRNA_Ser+tRNA_Asp+tRNA_Lys+tRNA_Ser2+tRNA_Leu2+tRNA_Glu+tRNA_Thr+tRNA_Pro+rep_origin
+   6	DNA	66	1930	9	2	1926	1926	COX1_pos2+ND3_pos2+ND4_pos1+ND4_pos2+CYTB_pos2
+   7	DNA	66	2284	60	39	2226	2226	COX1_pos3+COX2_pos3+ATP8_pos3+ND4L_pos1+ND4L_pos3+ND5_pos3+ND6_pos1+CYTB_pos3+tRNA_Val+tRNA_Trp
+   8	DNA	66	1043	49	29	1002	1002	ND3_pos3+D_loop
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F:ND1_pos1+COX3_pos2+ND4L_pos2+tRNA_Phe+tRNA_Ala+tRNA_Asn+tRNA_Cys+tRNA_Tyr+tRNA_Gly+tRNA_Arg+tRNA_His,HKY+F:ND1_pos2+ND2_pos2+ATP6_pos2+ND5_pos2,HKY+F:ND1_pos3+ND2_pos3+ATP6_pos3+COX3_pos3+ND4_pos3,HKY+F:ND2_pos1+COX2_pos2+ATP6_pos1+COX3_pos1+ND5_pos1+ND6_pos2+CYTB_pos1,HKY+F:COX1_pos1+COX2_pos1+ATP8_pos1+ATP8_pos2+ND3_pos1+ND6_pos3+12S+16S+tRNA_Leu+tRNA_Ile+tRNA_Gln+tRNA_Met+tRNA_Ser+tRNA_Asp+tRNA_Lys+tRNA_Ser2+tRNA_Leu2+tRNA_Glu+tRNA_Thr+tRNA_Pro+rep_origin,HKY+F:COX1_pos2+ND3_pos2+ND4_pos1+ND4_pos2+CYTB_pos2,HKY+F:COX1_pos3+COX2_pos3+ATP8_pos3+ND4L_pos1+ND4L_pos3+ND5_pos3+ND6_pos1+CYTB_pos3+tRNA_Val+tRNA_Trp,HKY+F+I:ND3_pos3+D_loop
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  HKY+F             -1827.701    3665.402 + 3.02e-314    3665.450 + 7.49e-236    3691.012 + 2.17e-314
+   2  HKY+F             -1971.802    3953.604 + 3.02e-314    3953.644 + 7.49e-236    3980.170 + 2.17e-314
+   3  HKY+F             -2051.540    4113.081 + 3.02e-314    4113.118 + 7.49e-236    4140.007 + 2.17e-314
+   4  HKY+F             -3164.439    6338.878 + 3.02e-314    6338.905 + 7.49e-236    6367.406 + 2.17e-314
+   5  HKY+F             -6271.659   12553.317 + 3.02e-314   12553.330 + 7.49e-236   12585.423 + 2.17e-314
+   6  HKY+F             -2606.959    5223.917 + 3.02e-314    5223.948 + 7.49e-236    5251.744 + 2.17e-314
+   7  HKY+F             -3248.436    6506.872 + 3.02e-314    6506.899 + 7.49e-236    6535.541 + 2.17e-314
+   8  HKY+F+I           -1832.210    3676.421 + 3.02e-314    3676.502 + 7.49e-236    3706.120 + 2.17e-314
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  HKY+F          0.9686  HKY{8.76854}+F{0.288296,0.235187,0.165639,0.310878}
+   2  HKY+F          0.3990  HKY{8.97172}+F{0.190303,0.284737,0.0940697,0.430891}
+   3  HKY+F          1.1611  HKY{72.4858}+F{0.446612,0.319757,0.0198421,0.213789}
+   4  HKY+F          0.5725  HKY{28.5469}+F{0.351713,0.25898,0.161103,0.228204}
+   5  HKY+F          0.1682  HKY{39.0032}+F{0.345061,0.229532,0.181009,0.244398}
+   6  HKY+F          0.1580  HKY{26.6124}+F{0.22638,0.264235,0.137354,0.372031}
+   7  HKY+F          2.0049  HKY{100}+F{0.417429,0.305838,0.0475135,0.229219}
+   8  HKY+F+I        5.5425  HKY{100}+F{0.322499,0.252003,0.120909,0.304588}+I{0.939709}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -22965.5175 (s.e. 134.3750)
+Unconstrained log-likelihood (without tree): -23457.2601
+Number of free parameters (#branches + #model parameters): 169
+Akaike information criterion (AIC) score: 46269.0350
+Corrected Akaike information criterion (AICc) score: 46272.5817
+Bayesian information criterion (BIC) score: 47570.8871
+
+Total tree length (sum of branch lengths): 0.0134
+Sum of internal branch lengths: 0.0077 (57.2490% of tree length)
+
+WARNING: 37 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Pcra.mito.20' is drawn at root
+
++--Pcra.mito.20
+|
+|                          +**Pcra.mito.21
+|                       +**|
+|                       |  |  +--Pcra.mito.22
+|                       |  +**|
+|                       |     +--Pcra.mito.23
+|                    +--|
+|                    |  |  +**Pcra.mito.34
+|                    |  +--|
+|                    |     +--Pcra.mito.44
+|                 +**|
+|                 |  |              +**Pcra.mito.05
+|                 |  |           +**|
+|                 |  |           |  |  +--Pcra.mito.27
+|                 |  |           |  +**|
+|                 |  |           |     +--Pcra.mito.60
+|                 |  |        +**|
+|                 |  |        |  +--Pcra.mito.25
+|                 |  |     +--|
+|                 |  |     |  +--Pcra.mito.54
+|                 |  |  +**|
+|                 |  |  |  |           +--Pcra.mito.29
+|                 |  |  |  |        +--|
+|                 |  |  |  |        |  |        +--Pcra.mito.06
+|                 |  |  |  |        |  |     +**|
+|                 |  |  |  |        |  |     |  +--Pcra.mito.47
+|                 |  |  |  |        |  |  +**|
+|                 |  |  |  |        |  |  |  +**Pcra.mito.03
+|                 |  |  |  |        |  +**|
+|                 |  |  |  |        |     |  +--Pcra.mito.11
+|                 |  |  |  |        |     +**|
+|                 |  |  |  |        |        +--Pcra.mito.56
+|                 |  |  |  |     +**|
+|                 |  |  |  |     |  +--Pcra.mito.13
+|                 |  |  |  |  +**|
+|                 |  |  |  |  |  +**Pcra.mito.38
+|                 |  |  |  +--|
+|                 |  |  |     +--Pcra.mito.58
+|                 |  +--|
+|                 |     |           +--Pcra.mito.26
+|                 |     |        +**|
+|                 |     |        |  +--Pcra.mito.53
+|                 |     |     +**|
+|                 |     |     |  +**Pcra.mito.31
+|                 |     |  +--|
+|                 |     |  |  +--Pcra.mito.48
+|                 |     +**|
+|                 |        +--Pcra.mito.32
+|              +--|
+|              |  +--Pcra.mito.16
+|           +--|
+|           |  |                 +--Pcra.mito.24
+|           |  |              +**|
+|           |  |              |  |                    +**Pcra.mito.04
+|           |  |              |  |                 +**|
+|           |  |              |  |                 |  +**Pcra.mito.35
+|           |  |              |  |              +**|
+|           |  |              |  |              |  +**Pcra.mito.36
+|           |  |              |  |           +**|
+|           |  |              |  |           |  +**Pcra.mito.01
+|           |  |              |  |        +**|
+|           |  |              |  |        |  +**Pcra.mito.43
+|           |  |              |  |     +--|
+|           |  |              |  |     |  +**Pcra.mito.42
+|           |  |              |  |  +**|
+|           |  |              |  |  |  |    +**Pcra.mito.02
+|           |  |              |  |  |  +----|
+|           |  |              |  |  |       +**Pcra.mito.39
+|           |  |              |  +**|
+|           |  |              |     |     +--Pcra.mito.64
+|           |  |              |     |  +--|
+|           |  |              |     |  |  +**Pcra.mito.65
+|           |  |              |     +**|
+|           |  |              |        |     +--Pcra.mito.50
+|           |  |              |        |  +--|
+|           |  |              |        |  |  +**Pcra.mito.17
+|           |  |              |        +--|
+|           |  |              |           +**Pcra.mito.51
+|           |  |           +**|
+|           |  |           |  +-----Pcra.mito.12
+|           |  |        +--|
+|           |  |        |  |  +--Pcra.mito.61
+|           |  |        |  +--|
+|           |  |        |     +**Pcra.mito.18
+|           |  |     +**|
+|           |  |     |  |                                                         +**Pcra.mito.10
+|           |  |     |  |                                                    +----|
+|           |  |     |  |                                                    |    +**Pcra.mito.19
+|           |  |     |  |     +----------------------------------------------|
+|           |  |     |  |     |                                              |      +**Pcra.mito.14
+|           |  |     |  |     |                                              |   +**|
+|           |  |     |  |     |                                              |   |  +--Pcra.mito.15
+|           |  |     |  |     |                                              +---|
+|           |  |     |  |     |                                                  +--Pcra.mito.55
+|           |  |     |  |  +--|
+|           |  |     |  |  |  |   +**Pcra.mito.09
+|           |  |     |  |  |  +---|
+|           |  |     |  |  |      |  +--Pcra.mito.45
+|           |  |     |  |  |      +--|
+|           |  |     |  |  |         +**Pcra.mito.08
+|           |  |     |  +**|
+|           |  |     |     |             +--Pcra.mito.66
+|           |  |     |     |          +**|
+|           |  |     |     |          |  +--Pcra.mito.52
+|           |  |     |     +----------|
+|           |  |     |                +--Pcra.mito.07
+|           |  |  +**|
+|           |  |  |  |           +--Pcra.mito.33
+|           |  |  |  |        +--|
+|           |  |  |  |        |  |  +**Pcra.mito.46
+|           |  |  |  |        |  +--|
+|           |  |  |  |        |     +--Pcra.mito.59
+|           |  |  |  |     +**|
+|           |  |  |  |     |  +--Pcra.mito.41
+|           |  |  |  |  +**|
+|           |  |  |  |  |  +**Pcra.mito.40
+|           |  |  |  +--|
+|           |  |  |     +--Pcra.mito.57
+|           |  +**|
+|           |     +------Pcra.mito.28
+|        +**|
+|        |  +**Pcra.mito.49
+|     +**|
+|     |  +--Pcra.mito.67
+|  +**|
+|  |  +--Pcra.mito.37
++**|
+|  +**Pcra.mito.30
+|
++--Pcra.mito.63
+
+Tree in newick format:
+
+(Pcra.mito.20:0.0002476323,(((((((((Pcra.mito.21:0.0000010000,(Pcra.mito.22:0.0001223249,Pcra.mito.23:0.0000616131):0.0000010000):0.0000010000,(Pcra.mito.34:0.0000010000,Pcra.mito.44:0.0001223220):0.0001846438):0.0001845574,(((((Pcra.mito.05:0.0000010000,(Pcra.mito.27:0.0000616602,Pcra.mito.60:0.0000617061):0.0000010000):0.0000010000,Pcra.mito.25:0.0000616102):0.0000010000,Pcra.mito.54:0.0001846441):0.0001849266,((((Pcra.mito.29:0.0000616131,(((Pcra.mito.06:0.0000616102,Pcra.mito.47:0.0000616131):0.0000010000,Pcra.mito.03:0.0000010000):0.0000010000,(Pcra.mito.11:0.0001224041,Pcra.mito.56:0.0001225619):0.0000010000):0.0000010000):0.0000616102,Pcra.mito.13:0.0000616102):0.0000010000,Pcra.mito.38:0.0000010000):0.0000010000,Pcra.mito.58:0.0000617061):0.0001849375):0.0000024163,((((Pcra.mito.26:0.0000617061,Pcra.mito.53:0.0001853201):0.0000010000,Pcra.mito.31:0.0000010000):0.0000010000,Pcra.mito.48:0.0000616102):0.0000617061,Pcra.mito.32:0.0001862974):0.0000606203):0.0001844201):0.0000010000,Pcra.mito.16:0.0002465317):0.0000628298,((((((Pcra.mito.24:0.0001832185,(((((((Pcra.mito.04:0.0000010000,Pcra.mito.35:0.0000605580):0.0000605583,Pcra.mito.36:0.0000605576):0.0000010000,Pcra.mito.01:0.0000010000):0.0000010000,Pcra.mito.43:0.0000605576):0.0000010000,Pcra.mito.42:0.0000605755):0.0001829880,(Pcra.mito.02:0.0000010000,Pcra.mito.39:0.0000606362):0.0003699512):0.0000010000,((Pcra.mito.64:0.0002458761,Pcra.mito.65:0.0000010000):0.0001215914,((Pcra.mito.50:0.0001220813,Pcra.mito.17:0.0000010000):0.0000616873,Pcra.mito.51:0.0000603132):0.0000616676):0.0000010000):0.0000010000):0.0000010000,Pcra.mito.12:0.0004338368):0.0000587348,(Pcra.mito.61:0.0000616102,Pcra.mito.18:0.0000010000):0.0001869534):0.0001238775,((((Pcra.mito.10:0.0000600697,Pcra.mito.19:0.0000010000):0.0003570945,((Pcra.mito.14:0.0000010000,Pcra.mito.15:0.0001200337):0.0000010000,Pcra.mito.55:0.0001197194):0.0002556733):0.0030186080,(Pcra.mito.09:0.0000010000,(Pcra.mito.45:0.0001223794,Pcra.mito.08:0.0000010000):0.0000616603):0.0002988765):0.0000698231,((Pcra.mito.66:0.0000614624,Pcra.mito.52:0.0000614624):0.0000010000,Pcra.mito.07:0.0000616102):0.0007508572):0.0000029620):0.0000024470,((((Pcra.mito.33:0.0000616602,(Pcra.mito.46:0.0000010000,Pcra.mito.59:0.0000707925):0.0002142333):0.0001423285,Pcra.mito.41:0.0000614624):0.0000010000,Pcra.mito.40:0.0000010000):0.0000028903,Pcra.mito.57:0.0001222791):0.0001222762):0.0000010000,Pcra.mito.28:0.0004958281):0.0000593367):0.0001865036,Pcra.mito.49:0.0000010000):0.0000010000,Pcra.mito.67:0.0001857964):0.0000599178,Pcra.mito.37:0.0000616102):0.0000010000,Pcra.mito.30:0.0000010000):0.0000010000,Pcra.mito.63:0.0000617061);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t IQtree/aln.3.all/aln.3.all.treefile -p IQtree/aln.3.all/aln.3.all.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alignments/aln3_Pcra-unique_full-mito.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alignments/aln3_Pcra-unique_full-mito.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Aug 15 13:20:50 2024
+Total CPU time used: 70.9792 seconds (0h:1m:10s)
+Total wall-clock time used: 50.6721 seconds (0h:0m:50s)
+

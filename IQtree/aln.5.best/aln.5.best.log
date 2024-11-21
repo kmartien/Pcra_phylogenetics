@@ -1,0 +1,420 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    SWC-KMARTIEN1-ML.local (SSE4.2, 36 GB RAM)
+Command: iqtree -s alignments/aln5.phy -p IQtree/aln.5.best.nex -B 1000 -T AUTO --prefix IQtree/aln.5.best/aln.5.best
+Seed:    269892 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 23 15:20:00 2024
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading partition model file IQtree/aln.5.best.nex ...
+Reading alignment file alignments/aln5.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 2 sites contain only gaps or ambiguous characters.
+Alignment has 91 sequences with 16429 columns, 2504 distinct patterns
+2731 parsimony-informative, 1484 singleton sites, 12214 constant sites
+                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000123024 secs using 371.5% CPU
+   1  Pcra.mito.20           0.29%    passed     99.26%
+   2  Pcra.mito.21           0.30%    passed     99.66%
+   3  Pcra.mito.63           0.81%    passed     98.64%
+   4  Pcra.mito.22           0.29%    passed     99.58%
+   5  Pcra.mito.23           0.29%    passed     99.53%
+   6  Pcra.mito.24           0.29%    passed     99.56%
+   7  Pcra.mito.05           0.29%    passed     99.57%
+   8  Pcra.mito.25           0.34%    passed     99.34%
+   9  Pcra.mito.67           0.29%    passed     99.08%
+  10  Pcra.mito.26           0.29%    passed     99.68%
+  11  Pcra.mito.27           0.29%    passed     99.50%
+  12  Pcra.mito.04           0.29%    passed     99.30%
+  13  Pcra.mito.10           0.28%    passed     99.39%
+  14  Pcra.mito.28           0.30%    passed     99.50%
+  15  Pcra.mito.29           0.29%    passed     99.33%
+  16  Pcra.mito.06           0.29%    passed     99.38%
+  17  Pcra.mito.01           0.29%    passed     99.39%
+  18  Pcra.mito.30           0.29%    passed     99.20%
+  19  Pcra.mito.11           0.32%    passed     99.24%
+  20  Pcra.mito.31           0.29%    passed     99.63%
+  21  Pcra.mito.12           0.29%    passed     99.38%
+  22  Pcra.mito.32           0.29%    passed     99.47%
+  23  Pcra.mito.33           0.29%    passed     99.05%
+  24  Pcra.mito.60           0.30%    passed     99.65%
+  25  Pcra.mito.34           0.29%    passed     99.57%
+  26  Pcra.mito.66           0.30%    passed     99.59%
+  27  Pcra.mito.35           0.29%    passed     99.17%
+  28  Pcra.mito.09           0.29%    passed     99.54%
+  29  Pcra.mito.36           0.29%    passed     99.31%
+  30  Pcra.mito.37           0.29%    passed     99.15%
+  31  Pcra.mito.38           0.29%    passed     99.38%
+  32  Pcra.mito.02           0.29%    passed     98.99%
+  33  Pcra.mito.39           0.29%    passed     98.82%
+  34  Pcra.mito.13           0.29%    passed     99.29%
+  35  Pcra.mito.40           0.29%    passed     99.39%
+  36  Pcra.mito.41           0.29%    passed     99.26%
+  37  Pcra.mito.07           0.29%    passed     99.66%
+  38  Pcra.mito.42           0.29%    passed     99.48%
+  39  Pcra.mito.43           0.30%    passed     99.51%
+  40  Pcra.mito.44           0.29%    passed     99.68%
+  41  Pcra.mito.64           0.33%    passed     99.23%
+  42  Pcra.mito.65           0.38%    passed     99.27%
+  43  Pcra.mito.45           0.52%    passed     99.10%
+  44  Pcra.mito.08           0.29%    passed     99.43%
+  45  Pcra.mito.46           0.29%    passed     99.02%
+  46  Pcra.mito.14           0.28%    passed     99.24%
+  47  Pcra.mito.15           0.28%    passed     99.14%
+  48  Pcra.mito.59           0.35%    passed     99.13%
+  49  Pcra.mito.47           0.29%    passed     99.54%
+  50  Pcra.mito.16           0.29%    passed     99.41%
+  51  Pcra.mito.48           0.29%    passed     99.68%
+  52  Pcra.mito.49           0.29%    passed     99.15%
+  53  Pcra.mito.50           0.29%    passed     99.02%
+  54  Pcra.mito.51           0.29%    passed     99.51%
+  55  Pcra.mito.17           0.29%    passed     99.27%
+  56  Pcra.mito.61           0.32%    passed     99.51%
+  57  Pcra.mito.18           0.29%    passed     99.51%
+  58  Pcra.mito.52           0.29%    passed     99.50%
+  59  Pcra.mito.53           0.29%    passed     99.66%
+  60  Pcra.mito.54           0.29%    passed     99.64%
+  61  Pcra.mito.55           0.29%    passed     99.32%
+  62  Pcra.mito.56           0.29%    passed     99.61%
+  63  Pcra.mito.57           0.29%    passed     99.37%
+  64  Pcra.mito.03           0.29%    passed     99.33%
+  65  Pcra.mito.58           0.29%    passed     99.51%
+  66  Pcra.mito.19           0.27%    passed     99.42%
+  67  JN632624_Chea          0.35%    passed     71.63%
+  68  MH992390_Lobl          0.23%    passed     98.52%
+  69  NC_042761_Sbre         0.26%    passed     98.10%
+  70  MH000365_Ddel          0.26%    passed     49.27%
+  71  NC_060611_Scly         0.27%    passed     44.74%
+  72  MT410956_Scoe          0.26%    passed     67.20%
+  73  NC_060612_Sfro         0.26%    passed     60.72%
+  74  EU557092_Tadu          0.27%    passed     33.46%
+  75  NC_012059_Ttru         0.25%    passed     68.12%
+  76  KX857383_Slon          0.26%    passed     26.20%
+  77  NC_012057_Schi         0.25%    passed     90.59%
+  78  NC_045404_Steu         0.27%    passed     92.16%
+  79  MG599457_Lhos          0.24%    passed     45.73%
+  80  KX857264_Satt          0.35%    passed     76.77%
+  81  JF289171_Fatt          0.26%    passed     99.05%
+  82  ON652887_Pele          0.24%    passed     95.16%
+  83  MK790767_Gmac_Shiho    0.24%    passed     98.50%
+  84  MK790780_Gmac_Naisa    0.24%    passed     98.95%
+  85  NC_083222_Gmel         0.24%    passed     99.62%
+  86  NC_012062_Ggri         0.26%    passed     84.00%
+  87  NC_019590_Obre         0.29%    passed     74.66%
+  88  PP829132_Ohei          0.23%    passed     88.94%
+  89  MT410901_Lalb          0.22%    passed     52.22%
+  90  NC_050265_Lacu         0.27%    passed     91.00%
+  91  KF418381_Oorc          0.26%    passed     22.90%
+****  TOTAL                  0.29%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Loading 6 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	91	3034	370	2429	TN+F+I+G4	ND1_pos1_ND2_pos1_ATP8_pos1_ATP6_pos1_ND3_pos1_ND4_pos1_ND5_pos1_ND6_pos1_CYTB_pos1_tRNA_Phe_tRNA_Val_tRNA_Gln_tRNA_Lys_tRNA_Thr
+2	DNA	91	3710	117	3487	HKY+F+I+G4	ND1_pos2_ND2_pos2_COX1_pos2_COX2_pos2_COX3_pos2_ND3_pos2_ND4L_pos2_ND4_pos2_ND5_pos2_ND6_pos2_CYTB_pos2_tRNA_Ala_tRNA_Asn_tRNA_Pro
+3	DNA	91	3778	1680	1374	TIM2+F+I+G4	ND1_pos3_ND2_pos3_COX1_pos3_COX2_pos3_ATP8_pos3_ATP6_pos3_COX3_pos3_ND3_pos3_ND4L_pos3_ND4_pos3_ND5_pos3_ND6_pos3_CYTB_pos3
+4	DNA	91	4614	363	3974	TIM+F+I+G4	COX1_pos1_COX2_pos1_ATP8_pos2_ATP6_pos2_COX3_pos1_12S_rRNA_16S_rRNA_tRNA_Leu_tRNA_Ile_tRNA_Met_tRNA_Trp_tRNA_Tyr_tRNA_Ser_tRNA_Asp_tRNA_Gly_tRNA_His_tRNA_Leu2_tRNA_Glu
+5		91	296	43	218	K2P+I+G4	ND4L_pos1_tRNA_Cys_tRNA_Arg_tRNA_Ser2
+6	DNA	91	930	146	679	HKY+F+I+G4	D_loop
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.012 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 269892)...
+
+NOTE: 47 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+40 trees examined
+Threads: 1 / Time: 12.184 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -110359
+Threads: 2 / Time: 8.513 sec / Speedup: 1.431 / Efficiency: 72% / LogL: -110359
+Threads: 3 / Time: 8.323 sec / Speedup: 1.464 / Efficiency: 49% / LogL: -110359
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -76550.712
+Current log-likelihood at step 1: -65409.627
+Current log-likelihood at step 2: -64131.297
+Current log-likelihood at step 3: -64119.908
+Current log-likelihood at step 4: -64117.323
+Current log-likelihood at step 5: -64115.166
+Current log-likelihood at step 6: -64113.194
+Current log-likelihood at step 7: -64111.358
+Current log-likelihood at step 8: -64109.627
+Current log-likelihood at step 9: -64107.999
+Current log-likelihood at step 10: -64106.466
+Current log-likelihood at step 11: -64105.022
+Current log-likelihood at step 12: -64103.651
+Current log-likelihood at step 13: -64102.354
+Current log-likelihood at step 14: -64101.112
+Current log-likelihood at step 15: -64099.926
+Current log-likelihood at step 16: -64098.786
+Current log-likelihood at step 17: -64097.681
+Current log-likelihood at step 18: -64096.616
+Current log-likelihood at step 19: -64095.582
+Current log-likelihood at step 20: -64094.574
+Current log-likelihood at step 21: -64093.586
+Current log-likelihood at step 22: -64092.622
+Current log-likelihood at step 23: -64091.677
+Current log-likelihood at step 24: -64090.751
+Current log-likelihood at step 25: -64089.841
+Current log-likelihood at step 26: -64088.945
+Current log-likelihood at step 27: -64088.064
+Current log-likelihood at step 28: -64087.197
+Current log-likelihood at step 29: -64086.342
+Current log-likelihood at step 30: -64085.501
+Current log-likelihood at step 31: -64084.672
+Current log-likelihood at step 32: -64083.855
+Current log-likelihood at step 33: -64083.050
+Current log-likelihood at step 34: -64082.257
+Current log-likelihood at step 35: -64081.477
+Current log-likelihood at step 36: -64080.708
+Current log-likelihood at step 37: -64079.951
+Current log-likelihood at step 38: -64079.206
+Current log-likelihood at step 39: -64078.472
+Current log-likelihood at step 40: -64077.750
+Current log-likelihood at step 41: -64077.039
+Current log-likelihood at step 42: -64076.339
+Current log-likelihood at step 43: -64075.651
+Current log-likelihood at step 44: -64074.973
+Current log-likelihood at step 45: -64074.307
+Current log-likelihood at step 46: -64073.652
+Current log-likelihood at step 47: -64073.007
+Current log-likelihood at step 48: -64072.374
+Current log-likelihood at step 49: -64071.750
+Current log-likelihood at step 50: -64071.137
+Current log-likelihood at step 51: -64070.533
+Current log-likelihood at step 52: -64069.939
+Current log-likelihood at step 53: -64069.355
+Current log-likelihood at step 54: -64068.780
+Current log-likelihood at step 55: -64068.214
+Current log-likelihood at step 56: -64067.656
+Current log-likelihood at step 57: -64067.108
+Current log-likelihood at step 58: -64066.567
+Current log-likelihood at step 59: -64066.035
+Current log-likelihood at step 60: -64065.510
+Current log-likelihood at step 61: -64064.993
+Current log-likelihood at step 62: -64064.484
+Current log-likelihood at step 63: -64063.981
+Current log-likelihood at step 64: -64063.485
+Current log-likelihood at step 65: -64062.996
+Current log-likelihood at step 66: -64062.513
+Current log-likelihood at step 67: -64062.036
+Current log-likelihood at step 68: -64061.565
+Current log-likelihood at step 69: -64061.099
+Current log-likelihood at step 70: -64060.639
+Current log-likelihood at step 71: -64060.184
+Current log-likelihood at step 72: -64059.734
+Current log-likelihood at step 73: -64059.290
+Current log-likelihood at step 74: -64058.849
+Current log-likelihood at step 75: -64058.412
+Current log-likelihood at step 76: -64057.980
+Current log-likelihood at step 77: -64057.551
+Current log-likelihood at step 78: -64057.126
+Current log-likelihood at step 79: -64056.706
+Current log-likelihood at step 80: -64056.288
+Current log-likelihood at step 81: -64055.875
+Current log-likelihood at step 82: -64055.464
+Current log-likelihood at step 83: -64055.056
+Current log-likelihood at step 84: -64054.651
+Current log-likelihood at step 85: -64041.542
+Current log-likelihood at step 86: -64041.392
+Current log-likelihood at step 87: -64041.275
+Current log-likelihood at step 88: -64041.163
+Current log-likelihood at step 89: -64041.053
+Current log-likelihood at step 90: -64040.946
+Current log-likelihood at step 91: -64040.842
+Current log-likelihood at step 92: -64040.739
+Current log-likelihood at step 93: -64040.639
+Current log-likelihood at step 94: -64040.541
+Partition-specific rates:  0.618 0.147 2.717 0.398 1.063 1.638
+Parameters optimization took 93 rounds (10.090 sec)
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000204086 secs using 175.9% CPU
+Computing ML distances took 0.000249 sec (of wall-clock time) 0.000380 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 6.29425e-05 secs using 173.2% CPU
+Computing RapidNJ tree took 0.002236 sec (of wall-clock time) 0.002008 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -88984.984
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.087 second
+Computing log-likelihood of 98 initial trees ... 2.273 seconds
+Current best score: -64040.541
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -64040.516
+Current log-likelihood at step 1: -64040.420
+Parameters optimization took 0 rounds (0.092 sec)
+
+BETTER TREE FOUND at iteration 1: -64040.420
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -64040.234
+Current log-likelihood at step 1: -64040.139
+Parameters optimization took 0 rounds (0.095 sec)
+
+BETTER TREE FOUND at iteration 2: -64040.139
+Iteration 10 / LogL: -64040.515 / Time: 0h:0m:47s
+Iteration 20 / LogL: -64042.643 / Time: 0h:0m:52s
+Finish initializing candidate tree set (20)
+Current best tree score: -64040.139 / CPU time: 12.906
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -64051.076 / Time: 0h:0m:58s (0h:2m:24s left)
+Iteration 40 / LogL: -64059.138 / Time: 0h:1m:4s (0h:1m:42s left)
+Iteration 50 / LogL: -64040.327 / Time: 0h:1m:10s (0h:1m:14s left)
+Log-likelihood cutoff on original alignment: -64073.740
+Iteration 60 / LogL: -64040.340 / Time: 0h:1m:16s (0h:0m:54s left)
+Iteration 70 / LogL: -64040.479 / Time: 0h:1m:22s (0h:0m:38s left)
+Iteration 80 / LogL: -64040.320 / Time: 0h:1m:28s (0h:0m:24s left)
+Iteration 90 / LogL: -64040.346 / Time: 0h:1m:35s (0h:0m:12s left)
+Iteration 100 / LogL: -64059.178 / Time: 0h:1m:41s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -64074.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:1m:42s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -64040.139
+Current log-likelihood at step 1: -64040.046
+Current log-likelihood at step 2: -64039.955
+Current log-likelihood at step 3: -64039.865
+Current log-likelihood at step 4: -64039.777
+Current log-likelihood at step 5: -64039.689
+Current log-likelihood at step 6: -64039.603
+Current log-likelihood at step 7: -64039.518
+Current log-likelihood at step 8: -64039.434
+Current log-likelihood at step 9: -64039.352
+Current log-likelihood at step 10: -64039.270
+Current log-likelihood at step 11: -64039.188
+Current log-likelihood at step 12: -64039.108
+Current log-likelihood at step 13: -64039.029
+Current log-likelihood at step 14: -64038.951
+Current log-likelihood at step 15: -64038.873
+Current log-likelihood at step 16: -64038.796
+Current log-likelihood at step 17: -64038.719
+Current log-likelihood at step 18: -64038.643
+Current log-likelihood at step 19: -64038.568
+Current log-likelihood at step 20: -64038.493
+Current log-likelihood at step 21: -64038.419
+Current log-likelihood at step 22: -64038.345
+Current log-likelihood at step 23: -64038.272
+Current log-likelihood at step 24: -64038.199
+Current log-likelihood at step 25: -64038.126
+Current log-likelihood at step 26: -64038.054
+Current log-likelihood at step 27: -64037.982
+Current log-likelihood at step 28: -64037.910
+Current log-likelihood at step 29: -64037.839
+Current log-likelihood at step 30: -64037.768
+Current log-likelihood at step 31: -64037.697
+Current log-likelihood at step 32: -64037.626
+Current log-likelihood at step 33: -64037.555
+Current log-likelihood at step 34: -64037.485
+Current log-likelihood at step 35: -64037.415
+Current log-likelihood at step 36: -64037.345
+Current log-likelihood at step 37: -64037.275
+Current log-likelihood at step 38: -64037.205
+Current log-likelihood at step 39: -64037.135
+Current log-likelihood at step 40: -64037.065
+Current log-likelihood at step 41: -64036.995
+Current log-likelihood at step 42: -64036.926
+Current log-likelihood at step 43: -64036.856
+Current log-likelihood at step 44: -64036.786
+Current log-likelihood at step 45: -64036.717
+Current log-likelihood at step 46: -64036.647
+Current log-likelihood at step 47: -64036.577
+Current log-likelihood at step 48: -64036.507
+Current log-likelihood at step 49: -64036.438
+Current log-likelihood at step 50: -64036.368
+Current log-likelihood at step 51: -64036.298
+Current log-likelihood at step 52: -64036.228
+Current log-likelihood at step 53: -64036.158
+Current log-likelihood at step 54: -64036.088
+Current log-likelihood at step 55: -64036.018
+Current log-likelihood at step 56: -64035.948
+Current log-likelihood at step 57: -64035.877
+Current log-likelihood at step 58: -64035.807
+Current log-likelihood at step 59: -64035.736
+Current log-likelihood at step 60: -64035.666
+Current log-likelihood at step 61: -64035.595
+Current log-likelihood at step 62: -64035.524
+Current log-likelihood at step 63: -64035.453
+Current log-likelihood at step 64: -64035.382
+Current log-likelihood at step 65: -64035.311
+Current log-likelihood at step 66: -64035.240
+Current log-likelihood at step 67: -64035.169
+Current log-likelihood at step 68: -64035.097
+Current log-likelihood at step 69: -64035.025
+Current log-likelihood at step 70: -64034.953
+Current log-likelihood at step 71: -64034.881
+Current log-likelihood at step 72: -64034.809
+Current log-likelihood at step 73: -64034.736
+Current log-likelihood at step 74: -64034.664
+Current log-likelihood at step 75: -64034.591
+Current log-likelihood at step 76: -64034.519
+Current log-likelihood at step 77: -64034.446
+Current log-likelihood at step 78: -64034.373
+Current log-likelihood at step 79: -64034.299
+Current log-likelihood at step 80: -64034.226
+Current log-likelihood at step 81: -64034.153
+Current log-likelihood at step 82: -64034.079
+Current log-likelihood at step 83: -64034.005
+Current log-likelihood at step 84: -64033.931
+Current log-likelihood at step 85: -64033.857
+Current log-likelihood at step 86: -64033.783
+Current log-likelihood at step 87: -64033.708
+Current log-likelihood at step 88: -64033.634
+Current log-likelihood at step 89: -64033.559
+Current log-likelihood at step 90: -64033.484
+Current log-likelihood at step 91: -64033.409
+Current log-likelihood at step 92: -64033.334
+Current log-likelihood at step 93: -64033.258
+Current log-likelihood at step 94: -64033.183
+Current log-likelihood at step 95: -64033.107
+Current log-likelihood at step 96: -64033.031
+Current log-likelihood at step 97: -64032.955
+Current log-likelihood at step 98: -64032.879
+Current log-likelihood at step 99: -64032.803
+Partition-specific rates:  0.618 0.146 2.719 0.398 1.061 1.640
+Parameters optimization took 99 rounds (10.618 sec)
+
+Partition information was printed to IQtree/aln.5.best/aln.5.best.best_model.nex
+BEST SCORE FOUND : -64032.803
+Creating bootstrap support values...
+Split supports printed to NEXUS file IQtree/aln.5.best/aln.5.best.splits.nex
+Total tree length: 0.752
+
+Total number of iterations: 103
+CPU time used for tree search: 106.133 sec (0h:1m:46s)
+Wall-clock time used for tree search: 63.305 sec (0h:1m:3s)
+Total CPU time used: 185.767 sec (0h:3m:5s)
+Total wall-clock time used: 113.555 sec (0h:1m:53s)
+
+Computing bootstrap consensus tree...
+Reading input file IQtree/aln.5.best/aln.5.best.splits.nex...
+91 taxa and 610 splits.
+Consensus tree written to IQtree/aln.5.best/aln.5.best.contree
+Reading input trees file IQtree/aln.5.best/aln.5.best.contree
+Log-likelihood of consensus tree: -64033.921
+
+Analysis results written to: 
+  IQ-TREE report:                IQtree/aln.5.best/aln.5.best.iqtree
+  Maximum-likelihood tree:       IQtree/aln.5.best/aln.5.best.treefile
+  Likelihood distances:          IQtree/aln.5.best/aln.5.best.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          IQtree/aln.5.best/aln.5.best.splits.nex
+  Consensus tree:                IQtree/aln.5.best/aln.5.best.contree
+  Screen log file:               IQtree/aln.5.best/aln.5.best.log
+
+Date and Time: Fri Aug 23 15:21:54 2024

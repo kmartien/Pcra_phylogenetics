@@ -1,0 +1,178 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    SWC-KMARTIEN1-ML.local (SSE4.2, 36 GB RAM)
+Command: iqtree -s alignments/aln4-4Pcra.phy -p IQtree/aln.4.best.nex -B 1000 -T AUTO --prefix IQtree/aln.4.best/aln.4.best
+Seed:    207675 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 23 10:11:53 2024
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading partition model file IQtree/aln.4.best.nex ...
+Reading alignment file alignments/aln4-4Pcra.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 3 sites contain only gaps or ambiguous characters.
+Alignment has 29 sequences with 16429 columns, 2418 distinct patterns
+2707 parsimony-informative, 1488 singleton sites, 12234 constant sites
+                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.10623e-05 secs using 349.1% CPU
+   1  Pcra.mito.10           0.28%    passed     85.65%
+   2  Pcra.mito.11           0.32%    passed     84.55%
+   3  Pcra.mito.66           0.30%    passed     86.93%
+   4  Pcra.mito.55           0.29%    passed     85.35%
+   5  JN632624_Chea          0.35%    passed     53.27%
+   6  MH992390_Lobl          0.23%    passed     93.16%
+   7  NC_042761_Sbre         0.26%    passed     99.19%
+   8  MH000365_Ddel          0.26%    passed     79.21%
+   9  NC_060611_Scly         0.27%    passed     75.97%
+  10  MT410956_Scoe          0.26%    passed     92.85%
+  11  NC_060612_Sfro         0.26%    passed     86.61%
+  12  EU557092_Tadu          0.27%    passed     67.12%
+  13  NC_012059_Ttru         0.25%    passed     94.00%
+  14  KX857383_Slon          0.26%    passed     55.06%
+  15  NC_012057_Schi         0.25%    passed     99.77%
+  16  NC_045404_Steu         0.27%    passed     99.93%
+  17  MG599457_Lhos          0.24%    passed     78.44%
+  18  KX857264_Satt          0.35%    passed     97.30%
+  19  JF289171_Fatt          0.26%    passed     86.59%
+  20  ON652887_Pele          0.24%    passed     75.20%
+  21  MK790767_Gmac_Shiho    0.24%    passed     99.12%
+  22  MK790780_Gmac_Naisa    0.24%    passed     99.37%
+  23  NC_083222_Gmel         0.24%    passed     98.52%
+  24  NC_012062_Ggri         0.26%    passed     95.27%
+  25  NC_019590_Obre         0.29%    passed     95.16%
+  26  PP829132_Ohei          0.23%    passed     98.26%
+  27  MT410901_Lalb          0.22%    passed     81.49%
+  28  NC_050265_Lacu         0.27%    passed     95.85%
+  29  KF418381_Oorc          0.26%    passed     14.92%
+****  TOTAL                  0.27%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Loading 6 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	29	7131	693	5946	TIM2{2.1438,42.0035,62.2699}+F{0.34152,0.243966,0.1677,0.246813}+I{0.663334}+G4{0.785477}	ND1_pos1_ND2_pos1_COX2_pos1_ATP8_pos1_ATP8_pos2_ATP6_pos1_ATP6_pos2_COX3_pos1_ND3_pos1_ND4_pos1_ND5_pos1_ND6_pos1_CYTB_pos1_12S_rRNA_16S_rRNA_tRNA_Phe_tRNA_Val_tRNA_Leu_tRNA_Ile_tRNA_Gln_tRNA_Met_tRNA_Trp_tRNA_Tyr_tRNA_Ser_tRNA_Asp_tRNA_Lys_tRNA_Gly_tRNA_His_tRNA_Leu2_tRNA_Glu_tRNA_Thr
+2	DNA	29	2675	63	2550	HKY{78.2007}+F{0.198025,0.266715,0.122721,0.412539}+I{0.863464}+G4{0.655731}	ND1_pos2_ND2_pos2_COX1_pos2_COX2_pos2_COX3_pos2_ND4L_pos2_ND4_pos2_CYTB_pos2_tRNA_Pro
+3	DNA	29	2754	1236	995	TIM2{0.39519,79.7574,27.893}+F{0.438601,0.329697,0.0222005,0.209501}+I{0.0622353}+G4{3.82918}	ND1_pos3_ND2_pos3_COX3_pos3_ND3_pos3_ND4L_pos3_ND4_pos3_ND5_pos3_ND6_pos3_CYTB_pos3
+4	DNA	29	1552	81	1407	HKY{50.3232}+F{0.277528,0.234425,0.16817,0.319876}+I{0.777599}+G4{0.753689}	COX1_pos1_ND3_pos2_ND5_pos2_ND6_pos2_tRNA_Ala_tRNA_Asn
+5	DNA	29	1024	438	383	TN{100,53.4213}+F{0.423453,0.267192,0.0454301,0.263925}+G4{1.58865}	COX1_pos3_COX2_pos3_ATP8_pos3_ATP6_pos3
+6	DNA	29	1226	184	900	HKY{25.6108}+F{0.305911,0.234252,0.151159,0.308677}+I{0.52054}+G4{0.488267}	ND4L_pos1_D_loop_tRNA_Cys_tRNA_Arg_tRNA_Ser2
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 207675)...
+WARNING: Normalizing State frequencies so that sum of them equals to 1
+WARNING: Normalizing State frequencies so that sum of them equals to 1
+WARNING: Normalizing State frequencies so that sum of them equals to 1
+WARNING: Normalizing State frequencies so that sum of them equals to 1
+WARNING: Normalizing State frequencies so that sum of them equals to 1
+
+NOTE: 22 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+145 trees examined
+Threads: 1 / Time: 12.030 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -78393
+Threads: 2 / Time: 9.154 sec / Speedup: 1.314 / Efficiency: 66% / LogL: -78393
+Threads: 3 / Time: 7.416 sec / Speedup: 1.622 / Efficiency: 54% / LogL: -78393
+Threads: 4 / Time: 8.666 sec / Speedup: 1.388 / Efficiency: 35% / LogL: -78393
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -63080.011
+Current log-likelihood at step 1: -62824.799
+Current log-likelihood at step 2: -62824.375
+Current log-likelihood at step 3: -62824.373
+Partition-specific rates:  0.501 0.109 2.888 0.236 2.459 1.352
+Parameters optimization took 2 rounds (0.046 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000319958 secs using 30.94% CPU
+Computing ML distances took 0.000375 sec (of wall-clock time) 0.000121 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 6.69956e-05 secs using 120.9% CPU
+Computing RapidNJ tree took 0.000996 sec (of wall-clock time) 0.000416 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -72665.385
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.393 second
+Computing log-likelihood of 98 initial trees ... 0.792 seconds
+Current best score: -62824.373
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -62824.373
+Current log-likelihood at step 1: -62824.373
+Parameters optimization took 0 rounds (0.010 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -62824.373
+Iteration 10 / LogL: -62824.394 / Time: 0h:0m:40s
+Iteration 20 / LogL: -62824.377 / Time: 0h:0m:41s
+Finish initializing candidate tree set (1)
+Current best tree score: -62824.373 / CPU time: 4.345
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -62824.518 / Time: 0h:0m:43s (0h:1m:46s left)
+Iteration 40 / LogL: -62824.458 / Time: 0h:0m:44s (0h:1m:10s left)
+Iteration 50 / LogL: -62824.382 / Time: 0h:0m:46s (0h:0m:48s left)
+Log-likelihood cutoff on original alignment: -62847.988
+Iteration 60 / LogL: -62824.390 / Time: 0h:0m:48s (0h:0m:33s left)
+Iteration 70 / LogL: -62824.411 / Time: 0h:0m:50s (0h:0m:22s left)
+Iteration 80 / LogL: -62824.376 / Time: 0h:0m:51s (0h:0m:13s left)
+Iteration 90 / LogL: -62833.670 / Time: 0h:0m:53s (0h:0m:6s left)
+Iteration 100 / LogL: -62835.929 / Time: 0h:0m:55s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -62848.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:55s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -62824.373
+Current log-likelihood at step 1: -62824.373
+Partition-specific rates:  0.501 0.109 2.889 0.236 2.459 1.352
+Parameters optimization took 0 rounds (0.009 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Partition information was printed to IQtree/aln.4.best/aln.4.best.best_model.nex
+BEST SCORE FOUND : -62824.373
+Creating bootstrap support values...
+Split supports printed to NEXUS file IQtree/aln.4.best/aln.4.best.splits.nex
+Total tree length: 0.745
+
+Total number of iterations: 102
+CPU time used for tree search: 32.254 sec (0h:0m:32s)
+Wall-clock time used for tree search: 17.947 sec (0h:0m:17s)
+Total CPU time used: 89.436 sec (0h:1m:29s)
+Total wall-clock time used: 55.414 sec (0h:0m:55s)
+
+Computing bootstrap consensus tree...
+Reading input file IQtree/aln.4.best/aln.4.best.splits.nex...
+29 taxa and 104 splits.
+Consensus tree written to IQtree/aln.4.best/aln.4.best.contree
+Reading input trees file IQtree/aln.4.best/aln.4.best.contree
+Log-likelihood of consensus tree: -62824.373
+
+Analysis results written to: 
+  IQ-TREE report:                IQtree/aln.4.best/aln.4.best.iqtree
+  Maximum-likelihood tree:       IQtree/aln.4.best/aln.4.best.treefile
+  Likelihood distances:          IQtree/aln.4.best/aln.4.best.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          IQtree/aln.4.best/aln.4.best.splits.nex
+  Consensus tree:                IQtree/aln.4.best/aln.4.best.contree
+  Screen log file:               IQtree/aln.4.best/aln.4.best.log
+
+Date and Time: Fri Aug 23 10:12:48 2024

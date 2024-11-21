@@ -1,0 +1,359 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    SWC-KMARTIEN1-ML.local (SSE4.2, 36 GB RAM)
+Command: iqtree -s alignments/aln3_Pcra-unique_full-mito.phy -p IQtree/all_partition.nex -m TESTMERGE -T AUTO --prefix IQtree/aln.3.all/aln.3.all
+Seed:    894197 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug 15 13:19:59 2024
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading partition model file IQtree/all_partition.nex ...
+Reading alignment file alignments/aln3_Pcra-unique_full-mito.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 36 sites contain only gaps or ambiguous characters.
+Alignment has 66 sequences with 16421 columns, 174 distinct patterns
+115 parsimony-informative, 62 singleton sites, 16244 constant sites
+              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.79221e-05 secs using 110.6% CPU
+   1  Pcra.mito.20    0.24%    passed    100.00%
+   2  Pcra.mito.21    0.25%    passed     99.99%
+   3  Pcra.mito.63    0.76%    passed     99.85%
+   4  Pcra.mito.22    0.24%    passed     99.99%
+   5  Pcra.mito.23    0.24%    passed     99.99%
+   6  Pcra.mito.24    0.24%    passed     99.98%
+   7  Pcra.mito.05    0.24%    passed    100.00%
+   8  Pcra.mito.25    0.29%    passed    100.00%
+   9  Pcra.mito.67    0.24%    passed    100.00%
+  10  Pcra.mito.26    0.24%    passed     99.99%
+  11  Pcra.mito.27    0.24%    passed    100.00%
+  12  Pcra.mito.04    0.24%    passed     99.99%
+  13  Pcra.mito.10    0.23%    passed     99.99%
+  14  Pcra.mito.28    0.26%    passed     99.99%
+  15  Pcra.mito.29    0.24%    passed     99.99%
+  16  Pcra.mito.06    0.24%    passed    100.00%
+  17  Pcra.mito.01    0.24%    passed    100.00%
+  18  Pcra.mito.30    0.24%    passed    100.00%
+  19  Pcra.mito.11    0.27%    passed    100.00%
+  20  Pcra.mito.31    0.24%    passed    100.00%
+  21  Pcra.mito.12    0.24%    passed    100.00%
+  22  Pcra.mito.32    0.24%    passed    100.00%
+  23  Pcra.mito.33    0.24%    passed     99.99%
+  24  Pcra.mito.60    0.26%    passed    100.00%
+  25  Pcra.mito.34    0.24%    passed    100.00%
+  26  Pcra.mito.66    0.26%    passed    100.00%
+  27  Pcra.mito.35    0.24%    passed     99.99%
+  28  Pcra.mito.09    0.24%    passed    100.00%
+  29  Pcra.mito.36    0.24%    passed    100.00%
+  30  Pcra.mito.37    0.24%    passed    100.00%
+  31  Pcra.mito.38    0.24%    passed    100.00%
+  32  Pcra.mito.02    0.24%    passed     99.98%
+  33  Pcra.mito.39    0.24%    passed     99.96%
+  34  Pcra.mito.13    0.24%    passed    100.00%
+  35  Pcra.mito.40    0.24%    passed     99.99%
+  36  Pcra.mito.41    0.24%    passed     99.98%
+  37  Pcra.mito.07    0.24%    passed    100.00%
+  38  Pcra.mito.42    0.24%    passed    100.00%
+  39  Pcra.mito.43    0.25%    passed     99.99%
+  40  Pcra.mito.44    0.24%    passed     99.99%
+  41  Pcra.mito.64    0.29%    passed     99.99%
+  42  Pcra.mito.65    0.33%    passed     99.98%
+  43  Pcra.mito.45    0.48%    passed     99.96%
+  44  Pcra.mito.08    0.24%    passed    100.00%
+  45  Pcra.mito.46    0.24%    passed     99.99%
+  46  Pcra.mito.14    0.23%    passed     99.98%
+  47  Pcra.mito.15    0.23%    passed     99.96%
+  48  Pcra.mito.59    0.30%    passed    100.00%
+  49  Pcra.mito.47    0.24%    passed    100.00%
+  50  Pcra.mito.16    0.24%    passed    100.00%
+  51  Pcra.mito.48    0.24%    passed     99.99%
+  52  Pcra.mito.49    0.24%    passed    100.00%
+  53  Pcra.mito.50    0.24%    passed     99.99%
+  54  Pcra.mito.51    0.24%    passed    100.00%
+  55  Pcra.mito.17    0.24%    passed    100.00%
+  56  Pcra.mito.61    0.27%    passed    100.00%
+  57  Pcra.mito.18    0.24%    passed    100.00%
+  58  Pcra.mito.52    0.24%    passed    100.00%
+  59  Pcra.mito.53    0.24%    passed     99.99%
+  60  Pcra.mito.54    0.24%    passed    100.00%
+  61  Pcra.mito.55    0.24%    passed     99.98%
+  62  Pcra.mito.56    0.24%    passed    100.00%
+  63  Pcra.mito.57    0.24%    passed     99.99%
+  64  Pcra.mito.03    0.24%    passed     99.99%
+  65  Pcra.mito.58    0.24%    passed    100.00%
+  66  Pcra.mito.19    0.23%    passed     99.98%
+****  TOTAL           0.26%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 65 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		66	319	3	315	TESTMERGE	ND1_pos1
+2		66	319	1	317	TESTMERGE	ND1_pos2
+3		66	319	3	316	TESTMERGE	ND1_pos3
+4		66	347	2	345	TESTMERGE	ND2_pos1
+5		66	347	1	345	TESTMERGE	ND2_pos2
+6		66	347	3	342	TESTMERGE	ND2_pos3
+7		66	517	1	515	TESTMERGE	COX1_pos1
+8		66	517	0	516	TESTMERGE	COX1_pos2
+WARNING: No parsimony-informative sites in partition COX1_pos2
+9		66	517	7	506	TESTMERGE	COX1_pos3
+10		66	228	0	228	TESTMERGE	COX2_pos1
+WARNING: No variant sites in partition COX2_pos1
+11		66	228	2	226	TESTMERGE	COX2_pos2
+12		66	228	4	223	TESTMERGE	COX2_pos3
+13		66	54	0	54	TESTMERGE	ATP8_pos1
+WARNING: No variant sites in partition ATP8_pos1
+14		66	54	0	54	TESTMERGE	ATP8_pos2
+WARNING: No variant sites in partition ATP8_pos2
+15		66	53	2	51	TESTMERGE	ATP8_pos3
+16		66	227	1	225	TESTMERGE	ATP6_pos1
+17		66	227	0	226	TESTMERGE	ATP6_pos2
+WARNING: No parsimony-informative sites in partition ATP6_pos2
+18		66	226	4	222	TESTMERGE	ATP6_pos3
+19		66	262	1	260	TESTMERGE	COX3_pos1
+20		66	262	3	259	TESTMERGE	COX3_pos2
+21		66	261	2	256	TESTMERGE	COX3_pos3
+22		66	115	0	115	TESTMERGE	ND3_pos1
+WARNING: No variant sites in partition ND3_pos1
+23		66	115	0	115	TESTMERGE	ND3_pos2
+WARNING: No variant sites in partition ND3_pos2
+24		66	115	3	110	TESTMERGE	ND3_pos3
+25		66	97	2	95	TESTMERGE	ND4L_pos1
+26		66	97	1	96	TESTMERGE	ND4L_pos2
+27		66	96	2	94	TESTMERGE	ND4L_pos3
+28		66	459	1	458	TESTMERGE	ND4_pos1
+29		66	459	0	458	TESTMERGE	ND4_pos2
+WARNING: No parsimony-informative sites in partition ND4_pos2
+30		66	459	5	452	TESTMERGE	ND4_pos3
+31		66	607	1	602	TESTMERGE	ND5_pos1
+32		66	607	3	604	TESTMERGE	ND5_pos2
+33		66	607	12	588	TESTMERGE	ND5_pos3
+34		66	170	2	166	TESTMERGE	ND6_pos1
+35		66	170	0	169	TESTMERGE	ND6_pos2
+WARNING: No parsimony-informative sites in partition ND6_pos2
+36		66	170	0	170	TESTMERGE	ND6_pos3
+WARNING: No variant sites in partition ND6_pos3
+37		66	380	2	377	TESTMERGE	CYTB_pos1
+38		66	380	1	379	TESTMERGE	CYTB_pos2
+39		66	380	6	370	TESTMERGE	CYTB_pos3
+40		66	928	26	892	TESTMERGE	D_loop
+41		66	977	1	975	TESTMERGE	12S
+42		66	1586	0	1581	TESTMERGE	16S
+WARNING: No parsimony-informative sites in partition 16S
+43		66	73	1	72	TESTMERGE	tRNA_Phe
+44		66	67	1	65	TESTMERGE	tRNA_Val
+45		66	76	0	76	TESTMERGE	tRNA_Leu
+WARNING: No variant sites in partition tRNA_Leu
+46		66	66	0	66	TESTMERGE	tRNA_Ile
+WARNING: No variant sites in partition tRNA_Ile
+47		66	73	0	73	TESTMERGE	tRNA_Gln
+WARNING: No variant sites in partition tRNA_Gln
+48		66	69	0	69	TESTMERGE	tRNA_Met
+WARNING: No variant sites in partition tRNA_Met
+49		66	69	1	68	TESTMERGE	tRNA_Trp
+50		66	69	0	68	TESTMERGE	tRNA_Ala
+WARNING: No parsimony-informative sites in partition tRNA_Ala
+51		66	74	0	73	TESTMERGE	tRNA_Asn
+WARNING: No parsimony-informative sites in partition tRNA_Asn
+52		66	67	1	66	TESTMERGE	tRNA_Cys
+53		66	67	1	66	TESTMERGE	tRNA_Tyr
+54		66	64	0	64	TESTMERGE	tRNA_Ser
+WARNING: No variant sites in partition tRNA_Ser
+55		66	68	0	68	TESTMERGE	tRNA_Asp
+WARNING: No variant sites in partition tRNA_Asp
+56		66	65	0	65	TESTMERGE	tRNA_Lys
+WARNING: No variant sites in partition tRNA_Lys
+57		66	70	0	69	TESTMERGE	tRNA_Gly
+WARNING: No parsimony-informative sites in partition tRNA_Gly
+58		66	70	1	69	TESTMERGE	tRNA_Arg
+59		66	71	1	70	TESTMERGE	tRNA_His
+60		66	62	0	62	TESTMERGE	tRNA_Ser2
+WARNING: No variant sites in partition tRNA_Ser2
+61		66	70	0	70	TESTMERGE	tRNA_Leu2
+WARNING: No variant sites in partition tRNA_Leu2
+62		66	69	0	69	TESTMERGE	tRNA_Glu
+WARNING: No variant sites in partition tRNA_Glu
+63		66	71	0	71	TESTMERGE	tRNA_Thr
+WARNING: No variant sites in partition tRNA_Thr
+64		66	56	0	56	TESTMERGE	tRNA_Pro
+WARNING: No variant sites in partition tRNA_Pro
+65		66	32	0	32	TESTMERGE	rep_origin
+WARNING: No variant sites in partition rep_origin
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+136 trees examined
+Threads: 1 / Time: 12.128 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -26229
+Threads: 2 / Time: 8.347 sec / Speedup: 1.453 / Efficiency: 73% / LogL: -26229
+Threads: 3 / Time: 7.997 sec / Speedup: 1.516 / Efficiency: 51% / LogL: -26229
+Threads: 4 / Time: 7.622 sec / Speedup: 1.591 / Efficiency: 40% / LogL: -26229
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -23032.919
+Current log-likelihood at step 1: -22615.057
+Current log-likelihood at step 2: -22603.747
+Current log-likelihood at step 3: -22602.773
+Parameters optimization took 2 rounds (0.249 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -22598.914
+Current log-likelihood at step 1: -22597.657
+Current log-likelihood at step 2: -22595.908
+Current log-likelihood at step 3: -22595.345
+Partition-specific rates:  0.872 0.437 1.056 0.401 0.402 1.190 0.269 0.135 1.640 0.089 0.613 1.871 0.089 0.089 2.610 0.615 0.309 1.208 0.531 0.797 1.344 0.089 0.089 3.629 1.437 0.717 1.448 0.152 0.152 1.055 0.573 0.344 2.172 1.838 0.406 0.089 0.549 0.183 1.998 6.178 0.216 0.220 0.958 2.079 0.089 0.089 0.089 0.089 2.403 1.001 0.946 1.040 1.058 0.089 0.089 0.089 1.027 0.994 0.974 0.089 0.089 0.089 0.089 0.089 0.089
+Parameters optimization took 2 rounds (0.236 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 0.693 seconds
+
+NOTE: ModelFinder requires 0 MB RAM!
+
+PartitionFinder's parameters:
+Fast Relaxed Algorithm
+Percentage: 10.000
+Maximum pairs: 650
+
+Selecting individual models for 65 charsets using BIC...
+Full partition model BIC score: 52990.343 (LnL: -22589.607  df:805)
+Merging models to increase model fit (about 481 total partition schemes)...
+26 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 1	216 Subsets	BIC 50600.458	deltaBIC -2389.885
+14 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 2	90 Subsets	BIC 49351.336	deltaBIC -1249.122
+9 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 3	39 Subsets	BIC 48555.836	deltaBIC -795.500
+5 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 4	19 Subsets	BIC 48180.554	deltaBIC -375.282
+3 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 5	9 Subsets	BIC 48008.627	deltaBIC -171.928
+ModelFinder2	Fast Relaxed Algorithm	Step 6	1 Subsets	BIC 48008.627	deltaBIC 0.000
+Merging into 8 partitions...
+
+No. Model        Score       Charset
+   1 HKY+F        4140.007    ND1_pos3+ND2_pos3+ATP6_pos3+COX3_pos3+ND4_pos3	0h:0m:1s (0h:0m:0s left)
+   2 HKY+F        3691.012    ND1_pos1+COX3_pos2+ND4L_pos2+tRNA_Phe+tRNA_Ala+tRNA_Asn+tRNA_Cys+tRNA_Tyr+tRNA_Gly+tRNA_Arg+tRNA_His	0h:0m:1s (0h:0m:0s left)
+   3 HKY+F        6535.541    COX1_pos3+COX2_pos3+ATP8_pos3+ND4L_pos1+ND4L_pos3+ND5_pos3+ND6_pos1+CYTB_pos3+tRNA_Val+tRNA_Trp	0h:0m:1s (0h:0m:0s left)
+   4 HKY+F        3980.170    ND1_pos2+ND2_pos2+ATP6_pos2+ND5_pos2	0h:0m:1s (0h:0m:0s left)
+   5 HKY+F        5251.744    COX1_pos2+ND3_pos2+ND4_pos1+ND4_pos2+CYTB_pos2	0h:0m:1s (0h:0m:0s left)
+   6 HKY+F        6367.406    ND2_pos1+COX2_pos2+ATP6_pos1+COX3_pos1+ND5_pos1+ND6_pos2+CYTB_pos1	0h:0m:1s (0h:0m:0s left)
+   7 HKY+F+I      3706.120    ND3_pos3+D_loop	0h:0m:1s (0h:0m:0s left)
+   8 HKY+F        12585.423   COX1_pos1+COX2_pos1+ATP8_pos1+ATP8_pos2+ND3_pos1+ND6_pos3+12S+16S+tRNA_Leu+tRNA_Ile+tRNA_Gln+tRNA_Met+tRNA_Ser+tRNA_Asp+tRNA_Lys+tRNA_Ser2+tRNA_Leu2+tRNA_Glu+tRNA_Thr+tRNA_Pro+rep_origin	0h:0m:1s (0h:0m:0s left)
+Best partition model BIC score: 47589.343 (LnL: -22974.746  df:169)
+Partition information was printed to IQtree/aln.3.all/aln.3.all.best_scheme.nex
+Partition information in Raxml format was printed to IQtree/aln.3.all/aln.3.all.best_scheme
+
+All model information printed to IQtree/aln.3.all/aln.3.all.model.gz
+CPU time for ModelFinder: 59.591 seconds (0h:0m:59s)
+Wall-clock time for ModelFinder: 38.678 seconds (0h:0m:38s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -23195.215
+Current log-likelihood at step 1: -22975.431
+Current log-likelihood at step 2: -22975.426
+Partition-specific rates:  0.973 0.401 1.213 0.575 0.166 0.156 2.044 5.374
+Parameters optimization took 1 rounds (0.009 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000109196 secs using 172.2% CPU
+Computing ML distances took 0.000150 sec (of wall-clock time) 0.000208 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 3.60012e-05 secs using 163.9% CPU
+Computing RapidNJ tree took 0.001301 sec (of wall-clock time) 0.000958 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -25694.801
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.212 second
+Computing log-likelihood of 98 initial trees ... 0.359 seconds
+Current best score: -22965.706
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -22965.613
+Current log-likelihood at step 1: -22965.548
+Parameters optimization took 0 rounds (0.007 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -22965.548
+Iteration 10 / LogL: -22965.577 / Time: 0h:0m:39s
+Iteration 20 / LogL: -22966.093 / Time: 0h:0m:40s
+Finish initializing candidate tree set (20)
+Current best tree score: -22965.548 / CPU time: 1.488
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -22965.524
+Current log-likelihood at step 1: -22965.519
+Parameters optimization took 0 rounds (0.007 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 29: -22965.519
+Iteration 30 / LogL: -22965.995 / Time: 0h:0m:41s (0h:0m:8s left)
+Iteration 40 / LogL: -22965.649 / Time: 0h:0m:42s (0h:0m:7s left)
+Iteration 50 / LogL: -23000.178 / Time: 0h:0m:42s (0h:0m:6s left)
+Iteration 60 / LogL: -22965.859 / Time: 0h:0m:43s (0h:0m:6s left)
+Iteration 70 / LogL: -22965.587 / Time: 0h:0m:44s (0h:0m:5s left)
+Iteration 80 / LogL: -22965.675 / Time: 0h:0m:45s (0h:0m:4s left)
+Iteration 90 / LogL: -22974.334 / Time: 0h:0m:46s (0h:0m:3s left)
+Iteration 100 / LogL: -22965.718 / Time: 0h:0m:47s (0h:0m:2s left)
+Iteration 110 / LogL: -22965.647 / Time: 0h:0m:48s (0h:0m:1s left)
+Iteration 120 / LogL: -22965.718 / Time: 0h:0m:49s (0h:0m:0s left)
+Iteration 130 / LogL: -22968.902 / Time: 0h:0m:50s (0h:0m:-1s left)
+TREE SEARCH COMPLETED AFTER 130 ITERATIONS / Time: 0h:0m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -22965.519
+Current log-likelihood at step 1: -22965.518
+Partition-specific rates:  0.969 0.399 1.161 0.573 0.168 0.158 2.005 5.543
+Parameters optimization took 0 rounds (0.007 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Partition information was printed to IQtree/aln.3.all/aln.3.all.best_model.nex
+BEST SCORE FOUND : -22965.518
+Total tree length: 0.013
+
+Total number of iterations: 130
+CPU time used for tree search: 11.351 sec (0h:0m:11s)
+Wall-clock time used for tree search: 11.961 sec (0h:0m:11s)
+Total CPU time used: 70.979 sec (0h:1m:10s)
+Total wall-clock time used: 50.671 sec (0h:0m:50s)
+
+Analysis results written to: 
+  IQ-TREE report:                IQtree/aln.3.all/aln.3.all.iqtree
+  Maximum-likelihood tree:       IQtree/aln.3.all/aln.3.all.treefile
+  Likelihood distances:          IQtree/aln.3.all/aln.3.all.mldist
+  Best partitioning scheme:      IQtree/aln.3.all/aln.3.all.best_scheme.nex
+           in RAxML format:      IQtree/aln.3.all/aln.3.all.best_scheme
+  Screen log file:               IQtree/aln.3.all/aln.3.all.log
+
+Date and Time: Thu Aug 15 13:20:50 2024
