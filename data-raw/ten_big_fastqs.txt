@@ -1,0 +1,10 @@
+z0023319_Pcra_RunH119L8nuc_n0002343.fastq.gz
+z0011650_Pcra_RunH106L6_n0001956.fastq.gz
+z0116975_Pcra_RunH119L8nuc_n0002433.fastq.gz
+z0007636_Pcra_RunH106L6_n0001955.fastq.gz
+z0018462_Pcra_RunH119L8nuc_n0002340.fastq.gz
+z0009883_Pcra_RunH119L8nuc_n0002384.fastq.gz
+z0114840_Pcra_RunH119L8nuc_n0002338.fastq.gz
+z0108131_Pcra_RunH119L8nuc_n0002418.fastq.gz
+z0007449_Pcra_RunH119L8nuc_n0002337.fastq.gz
+z0079763_Pcra_RunH119L8nuc_n0002389.fastq.gz

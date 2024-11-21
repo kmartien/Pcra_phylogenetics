@@ -16,6 +16,7 @@
 /data-raw/SNPs/bam.files
 /data-raw/SNPs/sam.files
 /data-raw/SNPs/fastq
+/data-raw/SNPs/Pcra_reference_genome
 /BEAST/xml
 
 # Example code in package build process
