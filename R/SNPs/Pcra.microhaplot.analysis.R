@@ -5,13 +5,13 @@ load("/Users/Shared/KKMDocuments/Documents/Github.Repos/Pcra/Pcra.database.data/
 load("/Users/Shared/KKMDocuments/Documents/Github.Repos/Pcra/Pcra.database.data/data/id.key.rda")
 
 strat <- "Broad"
-run.label <- "All_BWA_aligned_to_Pcra_refs"
+run.label <- "All_files_aligned_to_extended_Pcra_refs"
 
 # for your dataset: customize the following paths
 
 sam.path <- paste0("data-raw/SNPs/sam.files/", run.label)
 label.path <- file.path("data-raw/SNPs/mplot_labels", paste0(run.label, ".label.txt"))
-vcf.path <- paste0("vcf/Run2_trimmed_aligned_with_BWA.recode.vcf")
+vcf.path <- paste0("vcf/", run.label, ".final.recode.vcf")
 out.path <- "results-R/microhaplot"
 app.path <- "/Users/Shared/KKMDocuments/Documents/Github.Repos/Shiny/microhaplot"
 

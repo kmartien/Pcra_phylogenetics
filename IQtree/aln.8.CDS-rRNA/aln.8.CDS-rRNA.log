@@ -1,0 +1,250 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    SWC-KMARTIEN1-ML.NMFS.LOCAL (SSE4.2, 36 GB RAM)
+Command: iqtree -s alignments/aln8.phy -p IQtree/aln3-CDS-rRNA_partition.nex -m MF+MERGE -T AUTO --prefix IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA
+Seed:    966776 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Mar 26 09:05:36 2025
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading partition model file IQtree/aln3-CDS-rRNA_partition.nex ...
+Reading alignment file alignments/aln8.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 2 sites contain only gaps or ambiguous characters.
+Alignment has 61 sequences with 16385 columns, 151 distinct patterns
+65 parsimony-informative, 65 singleton sites, 16255 constant sites
+              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.79357e-05 secs using 70.77% CPU
+   1  Pcra.mito.20    0.02%    passed    100.00%
+   2  Pcra.mito.21    0.03%    passed     99.99%
+   3  Pcra.mito.63    0.54%    passed     99.87%
+   4  Pcra.mito.22    0.02%    passed     99.98%
+   5  Pcra.mito.23    0.02%    passed     99.99%
+   6  Pcra.mito.24    0.02%    passed     99.99%
+   7  Pcra.mito.05    0.02%    passed    100.00%
+   8  Pcra.mito.25    0.07%    passed     99.99%
+   9  Pcra.mito.67    0.02%    passed    100.00%
+  10  Pcra.mito.26    0.02%    passed     99.99%
+  11  Pcra.mito.27    0.02%    passed    100.00%
+  12  Pcra.mito.04    0.02%    passed    100.00%
+  13  Pcra.mito.28    0.04%    passed    100.00%
+  14  Pcra.mito.29    0.02%    passed     99.99%
+  15  Pcra.mito.06    0.02%    passed    100.00%
+  16  Pcra.mito.01    0.02%    passed    100.00%
+  17  Pcra.mito.30    0.02%    passed     99.99%
+  18  Pcra.mito.11    0.05%    passed    100.00%
+  19  Pcra.mito.31    0.02%    passed     99.99%
+  20  Pcra.mito.12    0.02%    passed    100.00%
+  21  Pcra.mito.32    0.02%    passed    100.00%
+  22  Pcra.mito.33    0.02%    passed     99.99%
+  23  Pcra.mito.60    0.04%    passed    100.00%
+  24  Pcra.mito.34    0.02%    passed    100.00%
+  25  Pcra.mito.66    0.04%    passed    100.00%
+  26  Pcra.mito.35    0.02%    passed     99.99%
+  27  Pcra.mito.09    0.02%    passed    100.00%
+  28  Pcra.mito.36    0.02%    passed    100.00%
+  29  Pcra.mito.37    0.02%    passed    100.00%
+  30  Pcra.mito.38    0.02%    passed    100.00%
+  31  Pcra.mito.02    0.02%    passed     99.98%
+  32  Pcra.mito.39    0.02%    passed     99.96%
+  33  Pcra.mito.13    0.02%    passed    100.00%
+  34  Pcra.mito.40    0.02%    passed     99.99%
+  35  Pcra.mito.41    0.02%    passed     99.98%
+  36  Pcra.mito.07    0.02%    passed    100.00%
+  37  Pcra.mito.42    0.02%    passed    100.00%
+  38  Pcra.mito.43    0.03%    passed     99.99%
+  39  Pcra.mito.44    0.02%    passed     99.99%
+  40  Pcra.mito.64    0.07%    passed     99.99%
+  41  Pcra.mito.65    0.12%    passed     99.98%
+  42  Pcra.mito.45    0.26%    passed     99.96%
+  43  Pcra.mito.08    0.02%    passed    100.00%
+  44  Pcra.mito.46    0.02%    passed     99.99%
+  45  Pcra.mito.59    0.09%    passed    100.00%
+  46  Pcra.mito.47    0.02%    passed    100.00%
+  47  Pcra.mito.16    0.02%    passed    100.00%
+  48  Pcra.mito.48    0.02%    passed     99.99%
+  49  Pcra.mito.49    0.02%    passed    100.00%
+  50  Pcra.mito.50    0.02%    passed     99.99%
+  51  Pcra.mito.51    0.02%    passed    100.00%
+  52  Pcra.mito.17    0.02%    passed    100.00%
+  53  Pcra.mito.61    0.05%    passed    100.00%
+  54  Pcra.mito.18    0.02%    passed    100.00%
+  55  Pcra.mito.52    0.02%    passed    100.00%
+  56  Pcra.mito.53    0.02%    passed     99.99%
+  57  Pcra.mito.54    0.02%    passed    100.00%
+  58  Pcra.mito.56    0.02%    passed     99.99%
+  59  Pcra.mito.57    0.02%    passed     99.99%
+  60  Pcra.mito.03    0.02%    passed     99.99%
+  61  Pcra.mito.58    0.02%    passed    100.00%
+****  TOTAL           0.04%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 41 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		61	974	1	972	MF+MERGE	12S
+2		61	1580	0	1575	MF+MERGE	16S
+WARNING: No parsimony-informative sites in partition 16S
+3		61	319	2	316	MF+MERGE	ND1_pos1
+4		61	348	1	347	MF+MERGE	ND2_pos1
+5		61	517	1	515	MF+MERGE	COX1_pos1
+6		61	228	0	228	MF+MERGE	COX2_pos1
+WARNING: No variant sites in partition COX2_pos1
+7		61	54	0	54	MF+MERGE	ATP8_pos1
+WARNING: No variant sites in partition ATP8_pos1
+8		61	227	0	226	MF+MERGE	ATP6_pos1
+WARNING: No parsimony-informative sites in partition ATP6_pos1
+9		61	262	1	260	MF+MERGE	COX3_pos1
+10		61	119	0	119	MF+MERGE	ND3_pos1
+WARNING: No variant sites in partition ND3_pos1
+11		61	97	1	96	MF+MERGE	ND4L_pos1
+12		61	475	0	475	MF+MERGE	ND4_pos1
+WARNING: No variant sites in partition ND4_pos1
+13		61	607	1	602	MF+MERGE	ND5_pos1
+14		61	171	0	171	MF+MERGE	ND6_pos3
+WARNING: No variant sites in partition ND6_pos3
+15		61	380	1	378	MF+MERGE	CYTB_pos1
+16		61	319	1	317	MF+MERGE	ND1_pos2
+17		61	348	1	346	MF+MERGE	ND2_pos2
+18		61	517	0	516	MF+MERGE	COX1_pos2
+WARNING: No parsimony-informative sites in partition COX1_pos2
+19		61	228	1	227	MF+MERGE	COX2_pos2
+20		61	53	0	53	MF+MERGE	ATP8_pos2
+WARNING: No variant sites in partition ATP8_pos2
+21		61	227	0	226	MF+MERGE	ATP6_pos2
+WARNING: No parsimony-informative sites in partition ATP6_pos2
+22		61	262	1	261	MF+MERGE	COX3_pos2
+23		61	119	0	119	MF+MERGE	ND3_pos2
+WARNING: No variant sites in partition ND3_pos2
+24		61	96	0	96	MF+MERGE	ND4L_pos2
+WARNING: No variant sites in partition ND4L_pos2
+25		61	475	0	474	MF+MERGE	ND4_pos2
+WARNING: No parsimony-informative sites in partition ND4_pos2
+26		61	607	2	605	MF+MERGE	ND5_pos2
+27		61	170	2	166	MF+MERGE	ND6_pos2
+28		61	380	1	379	MF+MERGE	CYTB_pos2
+29		61	319	2	317	MF+MERGE	ND1_pos3
+30		61	348	2	344	MF+MERGE	ND2_pos3
+31		61	517	1	513	MF+MERGE	COX1_pos3
+32		61	228	2	224	MF+MERGE	COX2_pos3
+33		61	53	2	51	MF+MERGE	ATP8_pos3
+34		61	226	2	224	MF+MERGE	ATP6_pos3
+35		61	262	1	259	MF+MERGE	COX3_pos3
+36		61	119	0	118	MF+MERGE	ND3_pos3
+WARNING: No parsimony-informative sites in partition ND3_pos3
+37		61	96	1	95	MF+MERGE	ND4L_pos3
+38		61	475	2	471	MF+MERGE	ND4_pos3
+39		61	607	7	593	MF+MERGE	ND5_pos3
+40		61	170	0	169	MF+MERGE	ND6_pos1
+WARNING: No parsimony-informative sites in partition ND6_pos1
+41		61	380	4	372	MF+MERGE	CYTB_pos3
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+NOTE: Pcra.mito.31 is identical to Pcra.mito.26 but kept for subsequent analysis
+NOTE: Pcra.mito.42 is identical to Pcra.mito.01 but kept for subsequent analysis
+NOTE: Pcra.mito.49 is identical to Pcra.mito.37 but kept for subsequent analysis
+NOTE: Pcra.mito.39 is identical to Pcra.mito.02 but kept for subsequent analysis
+NOTE: Pcra.mito.03 is identical to Pcra.mito.56 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+290 trees examined
+Threads: 1 / Time: 12.018 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -20131
+Threads: 2 / Time: 8.283 sec / Speedup: 1.451 / Efficiency: 73% / LogL: -20131
+Threads: 3 / Time: 9.062 sec / Speedup: 1.326 / Efficiency: 44% / LogL: -20131
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -18772.470
+Current log-likelihood at step 1: -18596.062
+Current log-likelihood at step 2: -18591.538
+Parameters optimization took 1 rounds (0.104 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -18591.534
+Current log-likelihood at step 1: -18590.821
+Partition-specific rates:  0.452 0.460 1.365 0.417 0.562 0.100 0.100 0.642 1.108 0.100 1.497 0.100 1.195 0.100 0.764 0.913 0.837 0.283 0.641 0.100 0.645 0.554 0.100 0.100 0.308 0.478 3.788 0.382 0.974 2.044 1.424 2.527 5.437 1.227 1.662 2.526 1.505 1.192 3.341 0.848 3.370
+Parameters optimization took 0 rounds (0.034 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 0.218 seconds
+
+NOTE: ModelFinder requires 1 MB RAM!
+
+PartitionFinder's parameters:
+Fast Relaxed Algorithm
+Percentage: 10.000
+Maximum pairs: 410
+
+Selecting individual models for 41 charsets using BIC...
+Full partition model BIC score: 42459.143 (LnL: -18590.689  df:553)
+Merging models to increase model fit (about 207 total partition schemes)...
+18 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 1	94 Subsets	BIC 40891.835	deltaBIC -1567.308
+9 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 2	32 Subsets	BIC 40127.679	deltaBIC -764.156
+5 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 3	12 Subsets	BIC 39829.555	deltaBIC -298.124
+ModelFinder2	Fast Relaxed Algorithm	Step 4	5 Subsets	BIC 39806.299	deltaBIC -23.256
+ModelFinder2	Fast Relaxed Algorithm	Step 5	1 Subsets	BIC 39806.299	deltaBIC 0.000
+Merging into 8 partitions...
+
+No. Model        Score       Charset
+   1 HKY+F        2648.482    ND2_pos3+COX2_pos3+COX3_pos3+ND3_pos3+ND4L_pos3	0h:0m:0s (0h:0m:0s left)
+   2 HKY+F        3121.310    ND6_pos2+ND5_pos3+CYTB_pos3	0h:0m:0s (0h:0m:0s left)
++R3 reinitialized from +R2 with factor 0.500
+   3 HKY+F        3121.321    COX1_pos3+ATP6_pos3+ND4_pos3	0h:0m:0s (0h:0m:0s left)
+   4 HKY+F        10981.927   12S+16S+COX1_pos1+ATP6_pos1+CYTB_pos1+ATP6_pos2	0h:0m:0s (0h:0m:0s left)
+   5 F81+F        1774.730    ND1_pos2+ND2_pos2	0h:0m:0s (0h:0m:0s left)
+   6 HKY+F        5049.159    ND1_pos1+COX3_pos1+ND4L_pos1+ND5_pos1+ND1_pos3+ND6_pos1	0h:0m:0s (0h:0m:0s left)
+   7 HKY+F        180.390     ATP8_pos3	0h:0m:0s (0h:0m:0s left)
+   8 HKY+F        11249.485   ND2_pos1+COX2_pos1+ATP8_pos1+ND3_pos1+ND4_pos1+ND6_pos3+COX1_pos2+COX2_pos2+ATP8_pos2+COX3_pos2+ND3_pos2+ND4L_pos2+ND4_pos2+ND5_pos2+CYTB_pos2	0h:0m:0s (0h:0m:0s left)
+Best partition model BIC score: 39353.353 (LnL: -18927.482  df:157)
+Partition information was printed to IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA.best_scheme.nex
+Partition information in Raxml format was printed to IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA.best_scheme
+
+All model information printed to IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA.model.gz
+CPU time for ModelFinder: 42.669 seconds (0h:0m:42s)
+Wall-clock time for ModelFinder: 30.609 seconds (0h:0m:30s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -19042.698
+Current log-likelihood at step 1: -18929.365
+Current log-likelihood at step 2: -18929.365
+Partition-specific rates:  0.532 1.171 0.287 0.891 3.467 1.974 1.340 5.608
+Parameters optimization took 1 rounds (0.009 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Partition information was printed to IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA.best_model.nex
+BEST SCORE FOUND : -18929.365
+Total tree length: 0.007
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 42.685 sec (0h:0m:42s)
+Total wall-clock time used: 30.622 sec (0h:0m:30s)
+
+Analysis results written to: 
+  IQ-TREE report:                IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA.iqtree
+  Tree used for ModelFinder:     IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA.treefile
+  Best partitioning scheme:      IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA.best_scheme.nex
+           in RAxML format:      IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA.best_scheme
+  Screen log file:               IQtree/aln.8.CDS-rRNA/aln.8.CDS-rRNA.log
+
+Date and Time: Wed Mar 26 09:06:07 2025

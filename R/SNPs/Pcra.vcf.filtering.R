@@ -5,7 +5,7 @@ source("/Users/Shared/KKMDocuments/Documents/Github.Repos/Mnov/GTseq.design.and.
 source("/Users/Shared/KKMDocuments/Documents/Github.Repos/Mnov/GTseq.design.and.QAQC/R/functions/basic.vcf.filtering.R")
 library(vcftoolsR)
 
-PROJECT <- "Ten_med_aligned_to_Pcra_ref"
+PROJECT <- "All_extended_Pcra_refs_min50bp_downsampled"
 fname <- PROJECT
 vcf.dir <- "vcf"
 results.dir <- "results-raw/vcf-filtering"
@@ -51,39 +51,9 @@ filter.res$SNPs <- vcftools.removeIndels(paste0("vcf/", fname), paste0("vcf/", f
 # Summarize again
 summarize.vcf(vcf.dir, results.dir, fname = paste0(fname,".recode"), res.name = fname)
 
-# Missing data iterative filtering
-# Sequential filters of lmiss < .5, imiss < .9, lmiss < .4, imiss < .7, 
-# lmiss < .3 where imiss is percent missing data for an individual, lmiss is percent missing data for a locus. 
-imiss <- read.table(paste(results.dir, "/",fname,".imiss",sep=""), header = TRUE, stringsAsFactors = FALSE)
-lmiss <- read.table(paste(results.dir, "/",fname,".lmiss",sep=""), header = TRUE, stringsAsFactors = FALSE)
-print(paste0("Before iterative filtering, max_missing per individual = ", max(imiss$F_MISS), 
-      "; max_miss per locus = ", max(lmiss$F_MISS)))
+#########################################################################
 
-lmiss.lims <- c(0.5, 0.6, 0.7)
-imiss.lims <- c(0.8, 0.7, 0.7)
-file.copy(from = paste0("vcf/", fname, ".recode.vcf"), to = paste0("vcf/", PROJECT, ".iter.filter.recode.vcf"))
-fname <- paste0(PROJECT, ".iter.filter")
-filter.res$iter <- list()
-for (i in 1:3){
-  fn <- fname
-  maxmiss <- lmiss.lims[i]
-  max.ind.miss <- imiss.lims[i]
-  temp1 <- vcftools.maxMiss(paste0("vcf/", fn, ".recode"),paste0("vcf/", fn, ".maxmiss", i),maxmiss)
-  fn <- paste0(fn, ".maxmiss", i)
-  
-# How many genos are individuals missing now?
-  vcftools.imiss(paste0("vcf/", fn, ".recode"), paste0(results.dir, "/", fn))
-  imiss <- read.table(paste(results.dir, "/",fn,".imiss",sep=""), header = TRUE, stringsAsFactors = FALSE)
-  print(paste0("After ", i, " found iterative filtering, max_missing per individual = ", max(imiss$F_MISS)))
-  LQ_indv <- imiss %>% filter(F_MISS > imiss.lims[i]) %>% select(INDV)
-  write.table(LQ_indv, paste0(results.dir, "/LQ_Ind_", i),
-              col.names = FALSE, row.names = FALSE, quote = FALSE)
-  temp2 <- vcftools.removeInd(paste0("vcf/", fn, ".recode"), paste0("vcf/", fname),
-                              ind.file.name = paste0(results.dir, "/LQ_Ind_",i))
-  filter.res$iter[[i]] <- c(temp1[length(temp1)-3], temp1[length(temp1)-1],temp2[length(temp2)-3], temp2[length(temp2)-1])
-}
-summarize.vcf(vcf.dir, results.dir, fname = paste0(fname,".recode"), res.name = fname)
-
+GET RID OF EVERYTHING FROM HERE TO FINAL FILTERING BY MISSING DATA (NEXT SET OF HASTAGS)
 
 
 # INFO filters
@@ -92,50 +62,52 @@ summarize.vcf(vcf.dir, results.dir, fname = paste0(fname,".recode"), res.name = 
 
 ###  Execute these paste commands, paste each result into a terminal window,
 ###  delete the forward slashes (\) before the double quotes, and press enter to execute
-vcffilter.AB <- paste0('vcffilter -s -f "AB > 0.25 & AB < 0.75 | AB < 0.01" vcf/', fname, '.recode.vcf > vcf/', fname, '.AB.vcf')
+vcffilter.AB <- paste0('vcffilter -s -f "AB > 0.25 & AB < 0.75 | AB < 0.1" vcf/', fname, '.recode.vcf > vcf/', fname, '.AB.vcf')
 vcffilter.AB
 # Excluding strandedness filter since these are single-end data
 #vcffilter.strand <- paste0('vcffilter -s -f "SAF / SAR > 100 & SRF / SRR > 100 | SAR / SAF > 100 & SRR / SRF > 100" vcf/', fname, '.AB.vcf > vcf/', fname, '.AB.strand.vcf')
 #vcffilter.strand
-vcffilter.mapQual <- paste0('vcffilter -f "MQM / MQMR > 0.9 & MQM / MQMR < 1.05" vcf/', fname, '.AB.vcf > vcf/', fname, '.AB.mapQual.vcf')
+vcffilter.mapQual <- paste0('vcffilter -f "MQM / MQMR > 0.25 & MQM / MQMR < 1.75" vcf/', fname, '.AB.vcf > vcf/', fname, '.AB.mapQual.vcf')
 vcffilter.mapQual
-vcffilter.qualDepth <- paste0('vcffilter -f "QUAL / DP > 0.25" vcf/', fname, '.AB.mapQual.vcf > vcf/', fname, '.AB.mapQual.qualDepth.vcf')
-vcffilter.qualDepth
 
 # High depth/quality ratio filtering (remove sites with depth > mean + 1 stddev and qual < 2*depth)
 
 # calculate depth and quality per locus 
-vcftools.siteDepth(paste0("vcf/", fname, ".AB.mapQual.qualDepth"),
-                   paste0(results.dir, "/", fname, ".AB.mapQual.qualDepth"))
-vcftools.siteQual(paste0("vcf/", fname, ".AB.mapQual.qualDepth"),
-                   paste0(results.dir, "/", fname, ".AB.mapQual.qualDepth"))
-fname <- paste0(fname, ".AB.mapQual.qualDepth")
+vcftools.siteDepth(paste0("vcf/", fname, ".AB.mapQual"),
+                   paste0(results.dir, "/", fname, ".AB.mapQual"))
+vcftools.siteQual(paste0("vcf/", fname, ".AB.mapQual"),
+                   paste0(results.dir, "/", fname, ".AB.mapQual"))
+fname <- paste0(fname, ".AB.mapQual")
 site_qual <- read.table(paste(results.dir, "/",fname,".lqual",sep=""), header = TRUE, stringsAsFactors = FALSE)
 meanDP <- read.table(paste(results.dir, "/",fname,".ldepth.mean",sep=""), header = TRUE, stringsAsFactors = FALSE)
 meanDP$QUAL <- site_qual$QUAL
 high_depth <- subset(meanDP, MEAN_DEPTH > (mean(MEAN_DEPTH) + sqrt(var(MEAN_DEPTH))))
 loc.to.remove <- subset(high_depth, QUAL < 2*MEAN_DEPTH)
+write.table(loc.to.remove, paste0(results.dir, '/loci.to.remove.txt'), col.names = FALSE,
+            row.names = FALSE, quote = FALSE)
 
 # If any loci have high mean depth and quality < 2 * mean depth, remove them
 if(length(loc.to.remove$CHROM) > 0) {
   write.csv(loc.to.remove[,c(1,2)], file="loc.to.remove.csv", row.names=FALSE)
-  vcftools.rmSites(paste0("vcf/", fname, ".AB.mapQual.qualDepth"), 
-                   paste0("vcf/", fname, ".AB.mapQual.qualDepth.highDepth"),
-                   "loci.to.remove.txt")
+  vcftools.rmPOS(paste0("vcf/", fname), 
+                   paste0("vcf/", fname, ".highDepth"),
+                   paste0(results.dir, "/loci.to.remove.txt"))
   fname <- paste0(fname, ".highDepth")
 }
+##############################################################################
 
-
-# Remove sites with more than 5% missing data and individuals with more than 25% missing
-vcftools.imiss(paste0("vcf/", fname), paste0(results.dir, "/", fname))
+# Remove sites with more than 75% missing data and individuals with more than 75% missing
+vcftools.imiss(paste0("vcf/", fname, '.recode'), paste0(results.dir, "/", fname))
+vcftools.lmiss(paste0("vcf/", fname, '.recode'), paste0(results.dir, "/", fname))
 imiss <- read.table(paste(results.dir, "/",fname,".imiss",sep=""), header = TRUE, stringsAsFactors = FALSE)
-LQ_indv <- imiss %>% filter(F_MISS > 0.25) %>% select(INDV)
-write.table(LQ_indv, paste0(results.dir, "/LQ_Ind_", 25),
+lmiss <- read.table(paste(results.dir, "/",fname,".lmiss",sep=""), header = TRUE, stringsAsFactors = FALSE)
+LQ_indv <- imiss %>% filter(F_MISS > 0.75) %>% select(INDV)
+write.table(LQ_indv, paste0(results.dir, "/LQ_Ind_", 75),
             col.names = FALSE, row.names = FALSE, quote = FALSE)
-filter.res$imiss25 <- vcftools.removeInd(paste0("vcf/", fname), paste0("vcf/", fname, ".imiss25"),
-                            ind.file.name = paste0(results.dir, "/LQ_Ind_",25))
-fname <- paste0(fname, ".imiss25")
-filter.res$lmiss05 <- vcftools.maxMiss(paste0("vcf/", fname, ".recode"), paste0("vcf/", PROJECT, ".final"), max.miss = 0.95)
+filter.res$imiss75 <- vcftools.removeInd(paste0("vcf/", fname, '.recode'), paste0("vcf/", fname, ".imiss75"),
+                            ind.file.name = paste0(results.dir, "/LQ_Ind_",75))
+fname <- paste0(fname, ".imiss75")
+filter.res$lmiss75 <- vcftools.maxMiss(paste0("vcf/", fname, ".recode"), paste0("vcf/", PROJECT, ".final"), max.miss = 0.25)
 fname <- paste0(PROJECT, ".final")
 
 #3.1 Summarize final, filtered dataset

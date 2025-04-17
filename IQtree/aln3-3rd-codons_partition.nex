@@ -1,0 +1,18 @@
+#nexus	
+Begin sets;	
+charset 12S_pos3	=	75-1044\3;
+charset 16S_pos3	=	1116-2691\3;
+charset ND1_pos3	=	2772-3726\3;
+charset ND2_pos3	=	3942-4983\3;
+charset COX1_pos3	=	5368-6916\3;
+charset COX2_pos3	=	7058-7739\3;
+charset ATP8_pos3	=	7814-7971\3;
+charset ATP6_pos3	=	7975-8650\3;
+charset COX3_pos3	=	8655-9438\3;
+charset ND3_pos3	=	9509-9863\3;
+charset ND4L_pos3	=	9926-10212\3;
+charset ND4_pos3	=	10216-11638\3;
+charset ND5_pos3	=	11796-13614\3;
+charset ND6_pos3	=	13615-14125\3;
+charset CYTB_pos3	=	14201-15338\3;
+End;		
