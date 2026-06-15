@@ -1,0 +1,3 @@
+Pcra_z0018462_hPSMC_autosome_consensus.fa
+Pcra_z0027510_hPSMC_autosome_consensus.fa
+Pcra_z0045928_hPSMC_autosome_consensus.fa

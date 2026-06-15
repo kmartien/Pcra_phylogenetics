@@ -1,0 +1,355 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    SWC-KMARTIEN1-ML.local (SSE4.2, 36 GB RAM)
+Command: iqtree -s alignments/aln3.phy -p IQtree/aln3-partition-all.nex -m MF+MERGE -T AUTO --prefix IQtree/aln3-all/aln3-all
+Seed:    256875 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 12 17:12:43 2026
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading partition model file IQtree/aln3-partition-all.nex ...
+Reading alignment file alignments/aln3.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 66 sequences with 16385 columns, 173 distinct patterns
+115 parsimony-informative, 62 singleton sites, 16208 constant sites
+              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.71933e-05 secs using 77.97% CPU
+   1  Pcra.mito.20    0.02%    passed    100.00%
+   2  Pcra.mito.21    0.03%    passed     99.99%
+   3  Pcra.mito.63    0.54%    passed     99.85%
+   4  Pcra.mito.22    0.02%    passed     99.99%
+   5  Pcra.mito.23    0.02%    passed     99.99%
+   6  Pcra.mito.24    0.02%    passed     99.98%
+   7  Pcra.mito.05    0.02%    passed    100.00%
+   8  Pcra.mito.25    0.07%    passed    100.00%
+   9  Pcra.mito.67    0.02%    passed    100.00%
+  10  Pcra.mito.26    0.02%    passed     99.99%
+  11  Pcra.mito.27    0.02%    passed    100.00%
+  12  Pcra.mito.04    0.02%    passed     99.99%
+  13  Pcra.mito.10    0.01%    passed     99.99%
+  14  Pcra.mito.28    0.04%    passed     99.99%
+  15  Pcra.mito.29    0.02%    passed     99.99%
+  16  Pcra.mito.06    0.02%    passed    100.00%
+  17  Pcra.mito.01    0.02%    passed    100.00%
+  18  Pcra.mito.30    0.02%    passed    100.00%
+  19  Pcra.mito.11    0.05%    passed    100.00%
+  20  Pcra.mito.31    0.02%    passed    100.00%
+  21  Pcra.mito.12    0.02%    passed    100.00%
+  22  Pcra.mito.32    0.02%    passed    100.00%
+  23  Pcra.mito.33    0.02%    passed     99.99%
+  24  Pcra.mito.60    0.04%    passed    100.00%
+  25  Pcra.mito.34    0.02%    passed    100.00%
+  26  Pcra.mito.66    0.04%    passed    100.00%
+  27  Pcra.mito.35    0.02%    passed     99.99%
+  28  Pcra.mito.09    0.02%    passed    100.00%
+  29  Pcra.mito.36    0.02%    passed    100.00%
+  30  Pcra.mito.37    0.02%    passed    100.00%
+  31  Pcra.mito.38    0.02%    passed    100.00%
+  32  Pcra.mito.02    0.02%    passed     99.98%
+  33  Pcra.mito.39    0.02%    passed     99.96%
+  34  Pcra.mito.13    0.02%    passed    100.00%
+  35  Pcra.mito.40    0.02%    passed     99.99%
+  36  Pcra.mito.41    0.02%    passed     99.98%
+  37  Pcra.mito.07    0.02%    passed    100.00%
+  38  Pcra.mito.42    0.02%    passed    100.00%
+  39  Pcra.mito.43    0.03%    passed     99.99%
+  40  Pcra.mito.44    0.02%    passed     99.99%
+  41  Pcra.mito.64    0.07%    passed     99.99%
+  42  Pcra.mito.65    0.12%    passed     99.98%
+  43  Pcra.mito.45    0.26%    passed     99.96%
+  44  Pcra.mito.08    0.02%    passed    100.00%
+  45  Pcra.mito.46    0.02%    passed     99.99%
+  46  Pcra.mito.14    0.01%    passed     99.98%
+  47  Pcra.mito.15    0.01%    passed     99.96%
+  48  Pcra.mito.59    0.09%    passed    100.00%
+  49  Pcra.mito.47    0.02%    passed    100.00%
+  50  Pcra.mito.16    0.02%    passed    100.00%
+  51  Pcra.mito.48    0.02%    passed     99.99%
+  52  Pcra.mito.49    0.02%    passed    100.00%
+  53  Pcra.mito.50    0.02%    passed     99.99%
+  54  Pcra.mito.51    0.02%    passed    100.00%
+  55  Pcra.mito.17    0.02%    passed    100.00%
+  56  Pcra.mito.61    0.05%    passed    100.00%
+  57  Pcra.mito.18    0.02%    passed    100.00%
+  58  Pcra.mito.52    0.02%    passed    100.00%
+  59  Pcra.mito.53    0.02%    passed     99.99%
+  60  Pcra.mito.54    0.02%    passed    100.00%
+  61  Pcra.mito.55    0.02%    passed     99.98%
+  62  Pcra.mito.56    0.02%    passed    100.00%
+  63  Pcra.mito.57    0.02%    passed     99.99%
+  64  Pcra.mito.03    0.02%    passed     99.99%
+  65  Pcra.mito.58    0.02%    passed    100.00%
+  66  Pcra.mito.19    0.01%    passed     99.98%
+****  TOTAL           0.04%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 64 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		66	319	3	315	MF+MERGE	ND1_pos1
+2		66	319	1	317	MF+MERGE	ND1_pos2
+3		66	319	3	316	MF+MERGE	ND1_pos3
+4		66	348	2	346	MF+MERGE	ND2_pos1
+5		66	347	1	345	MF+MERGE	ND2_pos2
+6		66	347	3	342	MF+MERGE	ND2_pos3
+7		66	517	1	515	MF+MERGE	COX1_pos1
+8		66	517	0	516	MF+MERGE	COX1_pos2
+WARNING: No parsimony-informative sites in partition COX1_pos2
+9		66	517	7	506	MF+MERGE	COX1_pos3
+10		66	228	0	228	MF+MERGE	COX2_pos1
+WARNING: No variant sites in partition COX2_pos1
+11		66	228	2	226	MF+MERGE	COX2_pos2
+12		66	228	4	223	MF+MERGE	COX2_pos3
+13		66	51	0	51	MF+MERGE	ATP8_pos1
+WARNING: No variant sites in partition ATP8_pos1
+14		66	51	0	51	MF+MERGE	ATP8_pos2
+WARNING: No variant sites in partition ATP8_pos2
+15		66	51	1	50	MF+MERGE	ATP8_pos3
+16		66	226	1	224	MF+MERGE	ATP6_pos1
+17		66	226	0	225	MF+MERGE	ATP6_pos2
+WARNING: No parsimony-informative sites in partition ATP6_pos2
+18		66	226	4	222	MF+MERGE	ATP6_pos3
+19		66	262	1	260	MF+MERGE	COX3_pos1
+20		66	262	3	259	MF+MERGE	COX3_pos2
+21		66	261	2	256	MF+MERGE	COX3_pos3
+22		66	116	0	116	MF+MERGE	ND3_pos1
+WARNING: No variant sites in partition ND3_pos1
+23		66	116	0	116	MF+MERGE	ND3_pos2
+WARNING: No variant sites in partition ND3_pos2
+24		66	115	3	110	MF+MERGE	ND3_pos3
+25		66	96	2	94	MF+MERGE	ND4L_pos1
+26		66	96	1	95	MF+MERGE	ND4L_pos2
+27		66	96	2	94	MF+MERGE	ND4L_pos3
+28		66	460	1	459	MF+MERGE	ND4_pos1
+29		66	459	0	458	MF+MERGE	ND4_pos2
+WARNING: No parsimony-informative sites in partition ND4_pos2
+30		66	459	5	452	MF+MERGE	ND4_pos3
+31		66	607	1	602	MF+MERGE	ND5_pos1
+32		66	607	3	604	MF+MERGE	ND5_pos2
+33		66	607	12	588	MF+MERGE	ND5_pos3
+34		66	170	0	169	MF+MERGE	ND6_pos1
+WARNING: No parsimony-informative sites in partition ND6_pos1
+35		66	170	2	166	MF+MERGE	ND6_pos2
+36		66	170	0	170	MF+MERGE	ND6_pos3
+WARNING: No variant sites in partition ND6_pos3
+37		66	380	2	377	MF+MERGE	CYTB_pos1
+38		66	380	1	379	MF+MERGE	CYTB_pos2
+39		66	380	6	370	MF+MERGE	CYTB_pos3
+40		66	909	26	873	MF+MERGE	D-loop
+41		66	974	1	972	MF+MERGE	12S
+42		66	1580	0	1575	MF+MERGE	16S
+WARNING: No parsimony-informative sites in partition 16S
+43		66	72	1	71	MF+MERGE	Phe
+44		66	67	1	65	MF+MERGE	Val
+45		66	75	0	75	MF+MERGE	Leu
+WARNING: No variant sites in partition Leu
+46		66	66	0	66	MF+MERGE	Ile
+WARNING: No variant sites in partition Ile
+47		66	73	0	73	MF+MERGE	Gln
+WARNING: No variant sites in partition Gln
+48		66	69	0	69	MF+MERGE	Met
+WARNING: No variant sites in partition Met
+49		66	69	1	68	MF+MERGE	Trp
+50		66	69	0	68	MF+MERGE	Ala
+WARNING: No parsimony-informative sites in partition Ala
+51		66	75	0	74	MF+MERGE	Asn
+WARNING: No parsimony-informative sites in partition Asn
+52		66	67	1	66	MF+MERGE	Cys
+53		66	66	1	65	MF+MERGE	Tyr
+54		66	64	0	64	MF+MERGE	Ser
+WARNING: No variant sites in partition Ser
+55		66	68	0	68	MF+MERGE	Asp
+WARNING: No variant sites in partition Asp
+56		66	68	0	68	MF+MERGE	Lys
+WARNING: No variant sites in partition Lys
+57		66	69	0	68	MF+MERGE	Gly
+WARNING: No parsimony-informative sites in partition Gly
+58		66	70	1	69	MF+MERGE	Arg
+59		66	70	1	69	MF+MERGE	His
+60		66	61	0	61	MF+MERGE	Ser2
+WARNING: No variant sites in partition Ser2
+61		66	70	0	70	MF+MERGE	Leu2
+WARNING: No variant sites in partition Leu2
+62		66	69	0	69	MF+MERGE	Glu
+WARNING: No variant sites in partition Glu
+63		66	70	0	70	MF+MERGE	Thr
+WARNING: No variant sites in partition Thr
+64		66	66	0	66	MF+MERGE	Pro
+WARNING: No variant sites in partition Pro
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+137 trees examined
+Threads: 1 / Time: 12.006 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -26335
+Threads: 2 / Time: 7.693 sec / Speedup: 1.561 / Efficiency: 78% / LogL: -26335
+Threads: 3 / Time: 8.135 sec / Speedup: 1.476 / Efficiency: 49% / LogL: -26335
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -22978.002
+Current log-likelihood at step 1: -22562.096
+Current log-likelihood at step 2: -22549.711
+Current log-likelihood at step 3: -22548.563
+Parameters optimization took 2 rounds (0.248 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -22548.087
+Current log-likelihood at step 1: -22546.635
+Current log-likelihood at step 2: -22545.527
+Current log-likelihood at step 3: -22544.924
+Partition-specific rates:  0.881 0.442 0.790 0.404 0.406 1.203 0.272 0.136 1.659 0.090 0.620 1.892 0.090 0.090 1.324 0.625 0.314 1.220 0.537 0.806 1.356 0.090 0.090 3.634 1.469 0.733 1.464 0.153 0.153 1.066 0.579 0.347 2.196 0.411 1.897 0.090 0.554 0.185 2.019 6.297 0.219 0.223 0.968 2.101 0.090 0.090 0.090 0.090 2.433 1.012 0.942 1.051 1.069 0.090 0.090 0.090 1.038 1.004 0.998 0.090 0.090 0.090 0.090 0.090
+Parameters optimization took 2 rounds (0.164 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 0.569 seconds
+
+NOTE: ModelFinder requires 1 MB RAM!
+
+PartitionFinder's parameters:
+Fast Relaxed Algorithm
+Percentage: 10.000
+Maximum pairs: 640
+
+Selecting individual models for 64 charsets using BIC...
+Full partition model BIC score: 52799.121 (LnL: -22539.146  df:796)
+Merging models to increase model fit (about 468 total partition schemes)...
+27 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 1	219 Subsets	BIC 50391.304	deltaBIC -2407.818
+14 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 2	84 Subsets	BIC 49199.396	deltaBIC -1191.907
+8 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 3	34 Subsets	BIC 48494.271	deltaBIC -705.125
+5 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 4	17 Subsets	BIC 48135.281	deltaBIC -358.990
+ModelFinder2	Fast Relaxed Algorithm	Step 5	6 Subsets	BIC 48070.956	deltaBIC -64.325
+3 compatible better partition pairs found
+ModelFinder2	Fast Relaxed Algorithm	Step 6	4 Subsets	BIC 47906.613	deltaBIC -164.343
+ModelFinder2	Fast Relaxed Algorithm	Step 7	3 Subsets	BIC 47822.144	deltaBIC -84.469
+ModelFinder2	Fast Relaxed Algorithm	Step 8	0 Subsets	BIC 47822.144	deltaBIC 0.000
+Merging into 5 partitions...
+
+No. Model        Score       Charset
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.250
+   1 HKY+F        10083.911   COX1_pos1+12S+16S+Leu+Gln+Asp+Lys+Ser2+Leu2+Glu+Pro	0h:0m:1s (0h:0m:0s left)
+   2 HKY+F        11720.057   ND1_pos2+ND2_pos2+COX1_pos2+COX2_pos1+ATP8_pos1+ATP8_pos2+ATP6_pos2+ND3_pos1+ND3_pos2+ND4_pos1+ND4_pos2+ND5_pos2+ND6_pos3+CYTB_pos2+Ile+Met+Ser+Thr	0h:0m:1s (0h:0m:0s left)
+   3 HKY+F        9858.085    ND2_pos3+COX1_pos3+COX2_pos3+ATP8_pos3+ATP6_pos3+COX3_pos3+ND4L_pos1+ND4L_pos3+ND4_pos3+ND5_pos3+ND6_pos2+CYTB_pos3+Val+Trp	0h:0m:1s (0h:0m:0s left)
+   4 HKY+F        10908.890   ND1_pos1+ND1_pos3+ND2_pos1+COX2_pos2+ATP6_pos1+COX3_pos1+COX3_pos2+ND4L_pos2+ND5_pos1+ND6_pos1+CYTB_pos1+Phe+Ala+Asn+Cys+Tyr+Gly+Arg+His	0h:0m:1s (0h:0m:0s left)
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 16 likelihood is underflown
+Pattern 20 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 27 likelihood is underflown
+Pattern 37 likelihood is underflown
+Pattern 39 likelihood is underflown
+Pattern 41 likelihood is underflown
+Pattern 42 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 16 likelihood is underflown
+Pattern 20 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 27 likelihood is underflown
+Pattern 37 likelihood is underflown
+Pattern 39 likelihood is underflown
+Pattern 41 likelihood is underflown
+Pattern 42 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 16 likelihood is underflown
+Pattern 20 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 27 likelihood is underflown
+Pattern 37 likelihood is underflown
+Pattern 39 likelihood is underflown
+Pattern 41 likelihood is underflown
+Pattern 42 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 16 likelihood is underflown
+Pattern 20 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 27 likelihood is underflown
+Pattern 37 likelihood is underflown
+Pattern 39 likelihood is underflown
+Pattern 41 likelihood is underflown
+Pattern 42 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 16 likelihood is underflown
+Pattern 20 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 27 likelihood is underflown
+Pattern 37 likelihood is underflown
+Pattern 39 likelihood is underflown
+Pattern 41 likelihood is underflown
+Pattern 42 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 16 likelihood is underflown
+Pattern 20 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 27 likelihood is underflown
+Pattern 37 likelihood is underflown
+Pattern 39 likelihood is underflown
+Pattern 41 likelihood is underflown
+Pattern 42 likelihood is underflown
+   5 HKY+F+I      3703.730    ND3_pos3+D-loop	0h:0m:2s (0h:0m:0s left)
+Best partition model BIC score: 47561.902 (LnL: -23034.087  df:154)
+Partition information was printed to IQtree/aln3-all/aln3-all.best_scheme.nex
+Partition information in Raxml format was printed to IQtree/aln3-all/aln3-all.best_scheme
+
+All model information printed to IQtree/aln3-all/aln3-all.model.gz
+CPU time for ModelFinder: 43.564 seconds (0h:0m:43s)
+Wall-clock time for ModelFinder: 30.578 seconds (0h:0m:30s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -23253.012
+Current log-likelihood at step 1: -23034.891
+Current log-likelihood at step 2: -23034.885
+Partition-specific rates:  0.723 0.212 1.764 0.211 5.466
+Parameters optimization took 1 rounds (0.008 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Partition information was printed to IQtree/aln3-all/aln3-all.best_model.nex
+BEST SCORE FOUND : -23034.885
+Total tree length: 0.013
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 43.578 sec (0h:0m:43s)
+Total wall-clock time used: 30.591 sec (0h:0m:30s)
+
+Analysis results written to: 
+  IQ-TREE report:                IQtree/aln3-all/aln3-all.iqtree
+  Tree used for ModelFinder:     IQtree/aln3-all/aln3-all.treefile
+  Best partitioning scheme:      IQtree/aln3-all/aln3-all.best_scheme.nex
+           in RAxML format:      IQtree/aln3-all/aln3-all.best_scheme
+  Screen log file:               IQtree/aln3-all/aln3-all.log
+
+Date and Time: Fri Jun 12 17:13:13 2026

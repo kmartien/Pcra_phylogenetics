@@ -1,0 +1,7 @@
+Gmac_z0017981	Gmac_z0017981
+Gmac_z0112653	Gmac_z0112653
+Gmac_z0112731	Gmac_z0112731
+Pcra_z0018462	Pcra_z0018462
+Pcra_z0027510	Pcra_z0027510
+Pcra_z0045928	Pcra_z0045928
+Oorc_Morgan	Outgroup

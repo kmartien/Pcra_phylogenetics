@@ -1,0 +1,24 @@
+branch	branch_descendants	Oorc_Morgan	Pcra_z0027510	Gmac_z0017981	Pcra_z0018462	Pcra_z0045928	Gmac_z0112653	Gmac_z0112731
+b2	Pcra_z0027510,Pcra_z0018462,Pcra_z0045928	nan	nan	nan	nan	nan	nan	nan
+b3	Gmac_z0017981,Gmac_z0112653,Gmac_z0112731	nan	nan	nan	nan	nan	nan	nan
+b4	Pcra_z0018462,Pcra_z0045928	nan	nan	0	nan	nan	0	0
+b5	Pcra_z0027510	nan	nan	0.00184297	nan	nan	0.0015791	0.00160734
+b6	Gmac_z0017981	nan	0.0137212	nan	0.0142757	0.0129577	nan	nan
+b7	Gmac_z0112653,Gmac_z0112731	nan	0	nan	0	0	nan	nan
+b8	Pcra_z0018462	nan	0.0748766	0.00809608	nan	nan	0.00750619	0.00748466
+b9	Pcra_z0045928	nan	0	0	nan	nan	0	0
+b10	Gmac_z0112653	nan	0	0	0	0	nan	nan
+b11	Gmac_z0112731	nan	0.00744784	0	0.00766935	0.00730729	nan	nan
+
+# Z-scores:
+branch	branch_descendants	Oorc_Morgan	Pcra_z0027510	Gmac_z0017981	Pcra_z0018462	Pcra_z0045928	Gmac_z0112653	Gmac_z0112731
+b2	Pcra_z0027510,Pcra_z0018462,Pcra_z0045928	nan	nan	nan	nan	nan	nan	nan
+b3	Gmac_z0017981,Gmac_z0112653,Gmac_z0112731	nan	nan	nan	nan	nan	nan	nan
+b4	Pcra_z0018462,Pcra_z0045928	nan	nan	0	nan	nan	0	0
+b5	Pcra_z0027510	nan	nan	4.01828	nan	nan	3.74802	3.6723
+b6	Gmac_z0017981	nan	18.283	nan	20.0327	16.828	nan	nan
+b7	Gmac_z0112653,Gmac_z0112731	nan	0	nan	0	0	nan	nan
+b8	Pcra_z0018462	nan	10.4704	17.125	nan	nan	16.2761	15.5971
+b9	Pcra_z0045928	nan	0	0	nan	nan	0	0
+b10	Gmac_z0112653	nan	0	0	0	0	nan	nan
+b11	Gmac_z0112731	nan	14.7506	0.544945	13.4111	17.1586	nan	nan

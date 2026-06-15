@@ -1,0 +1,9 @@
+branch	branch_descendants	Oorc_Morgan	internalNode0X95	Pcra_z0027510	Gmac_z0017981	Gmac_z0112653	Gmac_z0112731
+b2	internalNode0X95,Pcra_z0027510	nan	nan	nan	nan	nan	nan
+b3	Gmac_z0017981,Gmac_z0112653,Gmac_z0112731	nan	nan	nan	nan	nan	nan
+b4	internalNode0X95	nan	nan	nan	nan	nan	nan
+b5	Pcra_z0027510	nan	nan	nan	nan	nan	nan
+b6	Gmac_z0017981	nan	nan	0.0137212	nan	nan	nan
+b7	Gmac_z0112653,Gmac_z0112731	nan	nan	0	nan	nan	nan
+b8	Gmac_z0112653	nan	nan	0	0	nan	nan
+b9	Gmac_z0112731	nan	nan	0.00744784	0	nan	nan

@@ -1,0 +1,31 @@
+
+  set size 1, 0.8;
+  set xran [10000:*];
+  set log x;
+  set format x "10^{%L}";
+  set mxtics 10;
+  set mytics 10;
+  unset grid;
+  set key off;
+  set xtics font "Helvetica,16";
+  set ytics nomirror font "Helvetica,16";
+  set xlab "Years (g=24, {/Symbol m}=1.2x10^{-8})" font "Helvetica,16";
+  set t po eps enhance so co "Helvetica,16";
+
+  set yran [0:100];
+  set ylab "Effective population size (x10^4)" font "Helvetica,16";
+  set out "/home/pmorin/projects/Pcra/hPSMC_Dsuite_June2025/hPSMC/hPSMC_output/z0018462_z0045928_4.90E10_msy_t15_psmc.out.eps";
+  set style line 1 lt 1 lc rgb "#FF0000" lw 4;
+  set style line 2 lt 1 lc rgb "#00C000" lw 4;
+  set style line 3 lt 1 lc rgb "#0080FF" lw 4;
+  set style line 4 lt 1 lc rgb "#C000FF" lw 4;
+  set style line 5 lt 1 lc rgb "#00EEEE" lw 4;
+  set style line 6 lt 1 lc rgb "#C04000" lw 4;
+  set style line 7 lt 1 lc rgb "#C8C800" lw 4;
+  set style line 8 lt 1 lc rgb "#FF80FF" lw 4;
+  set style line 9 lt 1 lc rgb "#4E642E" lw 4;
+  set style line 10 lt 1 lc rgb "#800000" lw 4;
+  set style line 11 lt 1 lc rgb "#67B7F7" lw 4;
+  set style line 12 lt 1 lc rgb "#FFC127" lw 4;
+  set style line 32 lt 1 lc rgb "#FFC0C0" lw 1;
+  plot "/home/pmorin/projects/Pcra/hPSMC_Dsuite_June2025/hPSMC/hPSMC_output/z0018462_z0045928_4.90E10_msy_t15_psmc.out.0.txt" u 1:2 t "popsize" w st ls 1;

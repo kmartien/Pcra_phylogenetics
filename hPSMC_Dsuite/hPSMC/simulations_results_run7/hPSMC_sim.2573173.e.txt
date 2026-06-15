@@ -1,0 +1,10 @@
+dos2unix: converting file /home/pmorin/projects/Pcra/hPSMC_Dsuite_June2025/hPSMC/hPSMC_output/Pcra_PSMC_PreDivNe_list.csv to Unix format...
+Usage: python hPSMC_quantify_split_time.py [options] input.psmc > outfile.sh
+
+hPSMC_quantify_split_time.py: error: option -N: invalid integer value: '2374.5'
+Can't open *.ms_sim.psmc: No such file or directory at /home/pmorin/programs/psmc/utils/psmc_plot.pl line 62.
+Use of uninitialized value in division (/) at /home/pmorin/programs/psmc/utils/psmc_plot.pl line 119.
+Use of uninitialized value in division (/) at /home/pmorin/programs/psmc/utils/psmc_plot.pl line 119.
+Illegal division by zero at /home/pmorin/programs/psmc/utils/psmc_plot.pl line 119.
+awk: cmd. line:1: {print $1,$2,$3=*out}
+awk: cmd. line:1:                 ^ syntax error

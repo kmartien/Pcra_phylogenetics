@@ -1,0 +1,1344 @@
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443360.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443361.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443362.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443363.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443364.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443366.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443367.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443368.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443369.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443370.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443371.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443372.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443373.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443374.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443375.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443376.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443377.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443378.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443379.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443380.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443381.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443365.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000001.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000002.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000003.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000004.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000005.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000006.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000007.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000008.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000009.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000010.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000011.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000012.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000013.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000014.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000015.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000016.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000017.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000018.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000019.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000020.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000021.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000022.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000023.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000024.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000025.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000026.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000027.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000028.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000029.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000030.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000031.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000032.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000033.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000034.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000035.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000036.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000037.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000038.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000039.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000040.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000041.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000042.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000043.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000044.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000045.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000046.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000047.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000048.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000049.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000050.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000051.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000052.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000053.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000054.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000055.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000056.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000057.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000058.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000059.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000060.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000061.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000062.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000063.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000064.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000065.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000066.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000067.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000068.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000069.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000070.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000071.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000072.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000073.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000074.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000075.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000076.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000077.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000078.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000079.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000080.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000081.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000082.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000083.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000084.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000085.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000086.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000087.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000088.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000089.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000090.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000091.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000092.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000093.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000094.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000095.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000096.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000097.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000098.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000099.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000100.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000101.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000102.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000103.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000104.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000105.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000106.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000107.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000108.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000109.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000110.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000111.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000112.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000113.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000114.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000115.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000116.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000117.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000118.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000119.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000120.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000121.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000122.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000123.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000124.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000125.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000126.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000127.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000128.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000129.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000130.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000131.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000132.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000133.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000134.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000135.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000136.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000137.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000138.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000139.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000140.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000141.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000142.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000143.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000144.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000145.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000146.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000147.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000148.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000149.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000150.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000151.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000152.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000153.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000154.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000155.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000156.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000157.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000158.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000159.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000160.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000161.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000162.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000163.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000164.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000165.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000166.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000167.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000168.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000169.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000170.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000171.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000172.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000173.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000174.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000175.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000176.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000177.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000178.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000179.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000180.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000181.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000182.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000183.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000184.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000185.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000186.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000187.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000188.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000189.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000190.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000191.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000192.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000193.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000194.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000195.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000196.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000197.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000198.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000199.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000200.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000201.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000202.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000203.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000204.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000205.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000206.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000207.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000208.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000209.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000210.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000211.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000212.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000213.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000214.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000215.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000216.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000217.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000218.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000219.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000220.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000221.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000222.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000223.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000224.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000225.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000226.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000227.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000228.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000229.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000230.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000231.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000232.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000233.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000234.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000235.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000236.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000237.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000238.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000239.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000240.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000241.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000242.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000243.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000244.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000245.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000246.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000247.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000248.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000249.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000250.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000251.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000252.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000253.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000254.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000255.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000256.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000257.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000258.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000259.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000260.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000261.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000262.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000263.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000264.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000265.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000266.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000267.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000268.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000269.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000270.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000271.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000272.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000273.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000274.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000275.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000276.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000277.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000278.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000279.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000280.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000281.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000282.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000283.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000284.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000285.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000286.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000287.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000288.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000289.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000290.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000291.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000292.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000293.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000294.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000295.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000296.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000297.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000298.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000299.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000300.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000301.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000302.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000303.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000304.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000305.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000306.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000307.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000308.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000309.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000310.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000311.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000312.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000313.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000314.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000315.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000316.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000317.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000318.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000319.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000320.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000321.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000322.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000323.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000324.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000325.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000326.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000327.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000328.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000329.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000330.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000331.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000332.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000333.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000334.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000335.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000336.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000337.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000338.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000339.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000340.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000341.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000342.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000343.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000344.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000345.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000346.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000347.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000348.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000349.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000350.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000351.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000352.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000353.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000354.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000355.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000356.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000357.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000358.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000359.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000360.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000361.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000362.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000363.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000364.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000365.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000366.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000367.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000368.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000369.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000370.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000371.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000372.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000373.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000374.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000375.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000376.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000377.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000378.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000379.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000380.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000381.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000382.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000383.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000384.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000385.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000386.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000387.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000388.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000389.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000390.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000391.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000392.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000393.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000394.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000395.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000396.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000397.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000398.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000399.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000400.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000401.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000402.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000403.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000404.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000405.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000406.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000407.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000408.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000409.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000410.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000411.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000412.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000413.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000414.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000415.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000416.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000417.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000418.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000419.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000420.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000421.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000422.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000423.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000424.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//CAKZJT010000425.1.vcf.gz
+[E::hts_open_format] Failed to open file "20" : No such file or directory
+Failed to read from 20: No such file or directory
+index: failed to open split-vcf//OW443382.1.vcf.gz

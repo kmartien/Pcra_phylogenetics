@@ -1,0 +1,7 @@
+Morgan_Oorc_dedup.bam
+z0018462_Pcra_dedup.bam
+z0027510_Pcra_dedup.bam
+z0045928_Pcra_dedup.bam
+z0112653_Gmac_dedup.bam
+z0112731_Gmac_dedup.bam
+z0017981_Gmac_dedup.bam

@@ -1,0 +1,3 @@
+/share/swfsc/pmorin/Pcra_z0018462_dedup_noRepeats.bam
+/share/swfsc/pmorin/Pcra_z0027510_dedup_noRepeats.bam
+/share/swfsc/pmorin/Pcra_z0045928_dedup_noRepeats.bam
