@@ -2,14 +2,16 @@ library(ape)
 library(treeio)
 library(ggplot2)
 library(ggtree)
+library(ggbreak)
 library(tidyverse)
 
-tree_name <- 'aln3-all'
-tree_posterior_file <- paste0('BEAST/xml/', tree_name, '/', tree_name, '_combined-Tree.trees')
-mcc_tree_file <- paste0('BEAST/xml/', tree_name, '/', tree_name, '_combined-MCC.tree')
+tree_folder <- 'aln3-all'
+tree_name <- 'aln3-all_skyline_combined'
+tree_posterior_file <- paste0('BEAST/xml/', tree_folder, '/', tree_name, '-Tree.trees')
+mcc_tree_file <- paste0('BEAST/xml/', tree_folder, '/', tree_name, '-MCC.tree')
 mcc_tree_layout <- 'rectangular'
 densitree_layout <- 'slanted'
-min_posterior_support <- 0.8
+min_posterior_support <- 0.94
 
 # ==============================================================================
 # 1. LOAD DATA AND PREPROCESS STRATA
@@ -24,7 +26,7 @@ mito.haps <- filter(mito.haps, !is.na(mito.hap))
 mito.strata <- left_join(mito.haps, CR.haps) |> 
   left_join(Pcra.strata) |> 
   mutate(Broad = ifelse(Broad %in% c('Atl-weird', 'Atl-normal', 'Atl-unknown'), 'N_Atlantic', Broad),
-         Broad = ifelse(Broad %in% c('MHI', 'NWHI'), 'HI_res', Broad),
+#         Broad = ifelse(Broad %in% c('MHI', 'NWHI'), 'HI_res', Broad),
          Broad = ifelse(Broad == 'Atl-South', 'S_Atlantic', Broad),
          Broad = ifelse(Broad == 'Spac', 'S_Pacific', Broad),
          Broad = ifelse(Broad == 'Wpac', 'NPac_Western', Broad),
@@ -42,9 +44,24 @@ Broad_strata <- mito.strata |>
   mutate(Broad = factor(Broad, levels = c(
     "N_Atlantic", "S_Atlantic", "Indian_Ocean", "S_Pacific",
     "NPac_Western", "NPac_Central", "NPac_Eastern", 
-    "Aus_resident", "HI_res", "Unknown"
+    "Aus_resident", "MHI", "NWHI", "Unknown"
   ))) |> 
   mutate(dot_x = as.numeric(dot_x))
+
+strata_labels <- tribble(
+  ~Broad, ~Name,
+  "N_Atlantic", "North Atlantic",
+  "S_Atlantic", "South Atlantic",
+  "Indian_Ocean", "Indian Ocean",
+  "S_Pacific", "South Pacific",
+  "NPac_Western", "Western N. Pacific",
+  "NPac_Central", "Central N. Pacific",
+  "NPac_Eastern", "Eastern N. Pacific",
+  "Aus_resident", "Australia Resident",
+  "MHI", "MHI Resident",
+  "NWHI", "NWHI Resident",
+  "Unknown", "Unknown"
+)
 
 offset_val <- 5000 # Horizontal spacing for tip dots
 
@@ -114,12 +131,17 @@ plot_data <- Broad_strata %>%
 
 # ==============================================================================
 # 4. DEFINE CLIMATE CHRONOLOGY TIMELINE (MIS)
+# Based on The LR04 Benthic Stack (Lisiecki & Raymo, 2005)
+# The Optimized MIS Chronology (Railsback et al., 2015) is a new authoritative
+# source, but it just subdivides MISs from Lisiecki & Raymo into smaller sub-
+# stages, which I'm not using
 # ==============================================================================
 mis_timeline <- data.frame(
-  xmin = c(-14000, -29000, -57000, -71000, -130000, -191000, -243000, -300000),
-  xmax = c(0,      -14000, -29000, -57000, -71000,  -130000, -191000, -243000),
-  stage = c("", "MIS\n2", "MIS\n3", "MIS\n4", "MIS\n5", "MIS\n6", "MIS\n7", "MIS\n8"),
-  type = c("interglacial", "glacial", "interglacial", "glacial", "interglacial", "glacial", "interglacial", "glacial")
+  xmin = c(-14000, -29000, -57000, -71000, -130000, -191000, -243000, -300000, -337000, -374000, -424000, -478000, -524000),
+  xmax = c(0,      -14000, -29000, -57000, -71000,  -130000, -191000, -243000, -300000, -337000, -374000, -424000, -478000),
+  stage = c("", "MIS\n2", "MIS\n3", "MIS\n4", "MIS\n5", "MIS\n6", "MIS\n7", "MIS\n8", "MIS\n9", "MIS\n10", "MIS\n11", "MIS\n12", "MIS\n13"),
+  type = c("interglacial", "glacial", "interglacial", "glacial", "interglacial", "glacial", "interglacial", "glacial", "interglacial", "glacial", 
+           "interglacial", "glacial", "interglacial")
 ) %>% 
   mutate(x_center = (xmin + xmax) / 2)
 
@@ -144,7 +166,7 @@ rect_layer <- geom_rect(
   inherit.aes = FALSE
 )
 
-# NEW: Manual Grid Line Layers (Sandwiched right above the gray rectangles)
+# Manual Grid Line Layers (Sandwiched right above the gray rectangles)
 minor_breaks_vec <- seq(-450000, 0, 10000)
 major_breaks_vec <- seq(-450000, 0, 50000)
 
@@ -187,7 +209,7 @@ tip_points_layer <- geom_point(
   data = plot_data, 
   aes(x = x + (dot_x * offset_val), y = y, fill = Broad),
   shape = 21, 
-  size = 3, 
+  size = 2.5, 
   color = "black", 
   stroke = 0.5,
   inherit.aes = FALSE 
@@ -213,7 +235,7 @@ p$layers <- c(rect_layer, manual_minor_grid, manual_major_grid, p$layers, mcc_la
 
 # Apply scales, viewport crop, and clean theme
 p <- p +
-  scale_fill_manual(values = broad_stratum_colors, name = "Basin") +
+  scale_fill_manual(values = broad_stratum_colors, labels = deframe(strata_labels), name = "Basin") +
   theme_tree2() +
   scale_x_continuous(
     breaks = major_breaks_vec, 
@@ -221,7 +243,7 @@ p <- p +
     labels = function(x) format(round(x), scientific = FALSE),
     expand = expansion(mult = c(0.0, 0.05)) # Left expansion set to 0 to snap to -300,000 limit
   ) +
-  # NEW: Non-destructive viewport crop (Truncates timeline at -300,000 without deleting tree roots)
+  # Non-destructive viewport crop (Truncates timeline at -300,000 without deleting tree roots)
   coord_cartesian(xlim = c(-465000, 1000)) +
   theme(
     # Completely turn off native theme grid lines since we drew our own manual sandwich grid
@@ -231,10 +253,12 @@ p <- p +
     panel.grid.minor.y = element_blank(),
     axis.text.x        = element_text(size = 10),
     axis.ticks.x       = element_line(),
-    legend.position    = c(0.30, 0.70), # x = 12% from left margin, y = 70% up from bottom
+    legend.position    = c(0.15, 0.60), # x = 12% from left margin, y = 70% up from bottom
     legend.background  = element_rect(colour = "black"), # No ugly white box outline
     legend.key         = element_rect(fill = "transparent", colour = NA), # No grey boxes under legend icons
-    legend.title       = element_text(size = 10, face = "bold"),
+    legend.key.height  = unit(10, "pt"),  # Shrinks the vertical bounding box of the colored dot
+    legend.spacing.y   = unit(3, "pt"),   # Sets a tight gap between adjacent rows
+    legend.title       = element_text(size = 9, face = "bold"),
     legend.text        = element_text(size = 9)
   ) +
   labs(
@@ -244,6 +268,107 @@ p <- p +
 # ==============================================================================
 # 7. EXPORT TO FILE
 # ==============================================================================
-pdf(file = paste0('results-raw/', tree_name, '-mcc+densitree_', mcc_tree_layout, '-', densitree_layout, '.pdf'), width = 8, height = 7)
+pdf(file = paste0('results-raw/', tree_name, '-mcc+densitree_', mcc_tree_layout, '-', densitree_layout, '_temp.pdf'), width = 8, height = 6)
 print(p)
 dev.off()
+
+# ==============================================================================
+# 8. TREE WITH LABELED NODES FOR SUPPLEMENTAL MATERIAL
+# ==============================================================================
+# Define exactly which ticks you want visible on both sides of the break
+my_breaks <- c(-380000, -150000, -100000, -50000, 0)
+
+suppl_p <- ggtree(mcc_tree) %>% revts() +
+  # Break axis between -350kya and -150kya
+  scale_x_break(c(-350000, -150000), symbol = "slash") +
+  
+  # Tip labels (haplotypes)
+  geom_tiplab(size = 3, offset = 1000) + 
+  
+  # Internal node numbers
+  geom_label2(
+    aes(label = node, subset = !isTip),
+    fill = "white",          # White box masks the branch line
+    color = "darkred",       # Text color
+    label.size = 0,          # Removes the border box outline
+    label.padding = unit(0.1, "lines"), # Keeps the white box tight
+    size = 2.5,
+    vjust = 0.5,             # Centered vertically on the node
+    hjust = 0.5              # Centered horizontally on the node
+  ) +
+  
+  # Custom tick positions + right coordinate space reserved for tip text
+  scale_x_continuous(
+    breaks = my_breaks,
+    labels = function(x) format(abs(x), scientific = FALSE),
+    limits = c(-390000, 15000) # Expands the right subpanel space past present-day (0)
+  ) +
+  
+  theme_tree2() +
+  labs(x = "Years Ago") +
+  
+  # SUPPRESS TOP X-AXIS: Remove the duplicate top axis generated by ggbreak
+  theme(
+    axis.text.x.top  = element_blank(),
+    axis.ticks.x.top = element_blank(),
+    axis.line.x.top  = element_blank()
+  )
+
+# ==============================================================================
+# EXPORT PDF (onefile = FALSE kills the extra blank page 1)
+# ==============================================================================
+ggsave(
+  filename = "results-raw/Supplemental_MCC_Tree_Break.pdf", 
+  plot = suppl_p, 
+  width = 9, 
+  height = 10, 
+  onefile = FALSE
+)
+# For ggbreak, cite:
+# S Xu#, M Chen#, T Feng, L Zhan, L Zhou, G Yu*. Use ggbreak to effectively utilize plotting space to deal with large datasets and outliers. Frontiers in Genetics. 2021, 12:774846. doi: 10.3389/fgene.2021.774846
+# Supplemental file: https://github.com/YuLab-SMU/supplemental-ggbreak.
+
+# ==============================================================================
+# 9. GENERATE SUPPLEMENTAL NODE TABLE
+# ==============================================================================
+
+# Convert tree object to a data frame
+mcc_tbl <- as_tibble(mcc_tree)
+
+# Get the total number of tip nodes (internal nodes are > num_tips)
+num_tips <- Ntip(mcc_tree@phylo)
+
+# Dynamically identify the HPD column name generated by TreeAnnotator
+hpd_col_name <- grep("height_.*HPD", names(mcc_tbl), value = TRUE)[1]
+
+suppl_node_table <- mcc_tbl %>%
+  filter(node > num_tips) %>%  # Isolate internal nodes only
+  rowwise() %>%
+  mutate(
+    # Scale divergence times to years (matching your 1e6 tree scaling factor)
+    divergence_time_years = height * 1e6,
+    
+    # Safely extract lower and upper 95% HPD bounds from the list-column
+    hpd_vec = list(if (!is.null(hpd_col_name)) get(hpd_col_name) else c(NA, NA)),
+    lower_95_HPD = hpd_vec[1] * 1e6,
+    upper_95_HPD = hpd_vec[2] * 1e6
+  ) %>%
+  ungroup() %>%
+  select(
+    node,
+    posterior,
+    divergence_time_years,
+    lower_95_HPD,
+    upper_95_HPD
+  ) %>%
+  mutate(
+    posterior = round(posterior, 3),
+    divergence_time_years = round(divergence_time_years, 0),
+    lower_95_HPD = round(lower_95_HPD, 0),
+    upper_95_HPD = round(upper_95_HPD, 0)
+  ) %>%
+  arrange(node)
+
+# Save summary table as a CSV
+write_csv(suppl_node_table, "results-raw/Supplemental_Table_Node_Support.csv")
+

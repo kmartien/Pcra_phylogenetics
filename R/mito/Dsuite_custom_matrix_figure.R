@@ -59,15 +59,22 @@ p_final <- gheatmap(
   data = fb_matrix_df, 
   offset = max_tree_x * 0.22,  
   width = 1.6,                 
-  color = "white",             
+  color = "gray70",             
   colnames_position = "top",   
   colnames_angle = 45,         
   colnames_offset_y = -0.25,   # Negative value counteracts default padding to pull labels tight
   hjust = 0                    
 ) +
-  scale_fill_viridis_c(
-    option = "rocket", 
-    direction = -1, 
+  # scale_fill_viridis_c(
+  #   option = "rocket", 
+  #   direction = -1, 
+  #   na.value = "grey95", 
+  #   name = expression(italic(f)[branch])
+  # ) +
+  # Custom gradient injection: Forces 0 to be pure white, then seamlessly blends into rocket
+  scale_fill_gradientn(
+    colors = c("white", scales::viridis_pal(option = "rocket", direction = -1)(100)),
+    limits = c(0, NA),
     na.value = "grey95", 
     name = expression(italic(f)[branch])
   ) +

@@ -14,7 +14,7 @@ mito.haps <- filter(mito.haps, !is.na(mito.hap))
 
 #tree <- read.beast(file = 'BEAST/xml/aln.7.CDS-rRNA_constant_orc_combined/aln.7.CDS-rRNA_constant_orc_combined-MCC.trees')
 #tree <- read.beast(file = 'BEAST/xml/aln.3.CDS-rRNA_constant_orc/aln.3.CDS-rRNA_constant_orc-MCC.tree')
-tree <- read.beast(file = 'BEAST/xml/aln.3.CDS-rRNA_constant_orc_logMRCA/aln.3.CDS-rRNA_constant_orc_logMRCA-MCC.tree')
+tree <- read.beast(file = 'BEAST/xml/aln3-all/aln3-all_skyline_combined-MCC.tree')
 
 mito.strata <- left_join(mito.haps, CR.haps) |> 
   left_join(Pcra.strata) |> 
@@ -194,7 +194,7 @@ p <- p +
  
 #p <- flip(p, 73, 85)
 
-pdf(file = 'results-raw/viridis_tree_logMRCA.pdf', width = 8, height = 7)
+pdf(file = 'results-raw/viridis_tree_aln3_all_skyline.pdf', width = 8, height = 7)
 p
 dev.off()
 

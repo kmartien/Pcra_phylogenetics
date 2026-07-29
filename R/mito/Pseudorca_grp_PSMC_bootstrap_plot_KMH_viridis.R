@@ -4,12 +4,12 @@
 #Update 5 Feb 2026, using viridis colors and similar palette to the mitogenome ms
 library(viridis)
 
+PSMC_folder <- "hPSMC_Dsuite/hPSMC"
 # step 1 (create the .txt files from .psmc files using psmc_plot.pl) - run in terminal
 # step 2 (input .txt files from step 1 to create final plot) - run in R
 
-### Set working directory and get list of all input files including bootstrap replicates (these are the output text files generated from the utils/psmc_plot.pl -R command)
-# setwd("main_with_boot/plot_mu1.4e-08_g10")
-allfiles=list.files(pattern="txt")
+### Get list of all input files including bootstrap replicates (these are the output text files generated from the utils/psmc_plot.pl -R command)
+allfiles=list.files(path = PSMC_folder, pattern="txt")
 
 # get species names based on species name patterns from the filenames
 pop1<-"Pcra_z0018462"
@@ -26,11 +26,13 @@ leg1<-c("ETP", "ATL", "MHI", "hPSMC:ETP-ATL", "hPSMC:ETP-MHI", "hPSMC:ATL-MHI") 
 
 
 # Save as PDF using pdf() and dev.off()
-pdf(paste0("Pseudorca","_psmc_plot.pdf"),width = 5, height = 3)
+pdf(paste0("results-raw/Pseudorca","_psmc_plot.pdf"),width = 5, height = 3)
 
 ### Set min and max values for plot axes
-xmin=1.2e4
-xmax=1e7
+#xmin=1.2e4
+#xmax=1e7
+xmin <- 0
+xmax <- 225000
 ymin=0
 ymax=18
 
@@ -80,7 +82,12 @@ mycols2=c(
 par(mar=c(3.5,3.75,0.5,0.5))
 op <- par(cex = 0.75) # font size
 
-plot(1, 1, type="n", log="x", axes=F, xlim=c(xmin, xmax), ylim=c(ymin, ymax), xlab="", ylab="")
+### Generate an empty plot with labeled axes
+par(mar=c(3.5,3.75,0.5,0.5))
+op <- par(cex = 0.75) # font size
+
+# REMOVED log="x" to make the time axis linear
+plot(1, 1, type="n", axes=F, xlim=c(xmin, xmax), ylim=c(ymin, ymax), xlab="", ylab="")
 
 title(xlab="Years before present", line=2)
 title(ylab=expression("Effective population size (x10"^4*")"), line=2.25)
@@ -88,13 +95,9 @@ title(ylab=expression("Effective population size (x10"^4*")"), line=2.25)
 axis(side=2, line=0, labels=F)
 axis(side=2, line=-.25, labels=T, tick=F)
 
-at.x=outer(1:9, 10^(3:8))
-lab.x=NULL
-for (i in 1:length(at.x)){
-  p=log10(at.x[i])
-  if (p %% 1 == 0) {lab.x[i]=as.expression(bquote(10^ .(p)))}
-  else {lab.x[i]=""}
-}
+# REPLACED the old log-scale loop with clean linear ticks every 50,000 years
+at.x <- seq(0, 1000000, by = 50000)
+lab.x <- prettyNum(at.x, big.mark = ",")
 axis(1, at=at.x, labels=lab.x, las=1)
 
 legend("topright", lwd=3, col=mycols1[c(1,2,3,4,5,6,7,8,9)], legend=leg1, 
@@ -105,7 +108,7 @@ box()
 ### Function to add plot lines for each sample
 psmc_plot_fill=function(){
   # Get list of input files using "samplename" as the search term
-  dfiles=allfiles[grep(pattern=samplename, allfiles)]
+  dfiles=paste0(PSMC_folder, "/", allfiles[grep(pattern=samplename, allfiles)])
   # Loop through the bootstrap reps (first bootstrap file = the second file from the list above)
   for (i in 2:length(dfiles)){
     bb=read.table(dfiles[i])
@@ -139,18 +142,21 @@ psmc_plot_fill()
 # 4. For hPSMC can't use the written function since there are no bootstraps
 samplename=pop4
 nn=4
-lines(hPSMC_z0018462_z0027510_4.90E10_msy_t15_psmc.out.0$V1,
-      hPSMC_z0018462_z0027510_4.90E10_msy_t15_psmc.out.0$V2, type="s", col=mycols1[nn], lwd=2, lty = 1)
+dfiles=paste0(PSMC_folder, "/", allfiles[grep(pattern=samplename, allfiles)])
+aa=read.table(dfiles[1])
+lines(aa$V1, aa$V2, type="s", col=mycols1[nn], lwd=2, lty = 1)
 # 5
 samplename=pop5
 nn=5
-lines(hPSMC_z0018462_z0045928_4.90E10_msy_t15_psmc.out.0$V1,
-      hPSMC_z0018462_z0045928_4.90E10_msy_t15_psmc.out.0$V2, type="s", col=mycols1[nn], lwd=2, lty = 2)
+dfiles=paste0(PSMC_folder, "/", allfiles[grep(pattern=samplename, allfiles)])
+aa=read.table(dfiles[1])
+lines(aa$V1, aa$V2, type="s", col=mycols1[nn], lwd=2, lty = 2)
 # 6
 samplename=pop6
 nn=6
-lines(hPSMC_z0027510_z0045928_4.90E10_msy_t15_psmc.out.0$V1,
-      hPSMC_z0027510_z0045928_4.90E10_msy_t15_psmc.out.0$V2, type="s", col=mycols1[nn], lwd=2, lty = 3)
+dfiles=paste0(PSMC_folder, "/", allfiles[grep(pattern=samplename, allfiles)])
+aa=read.table(dfiles[1])
+lines(aa$V1, aa$V2, type="s", col=mycols1[nn], lwd=2, lty = 3)
 
 # Close the PDF device
 dev.off()

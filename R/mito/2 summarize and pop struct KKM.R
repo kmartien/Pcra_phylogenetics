@@ -1,4 +1,5 @@
 library(strataG)
+library(hfufs)
 library(tidyverse)
 source("R/functions/summarizeLoci.bystrata.R")  ### this can go away once Eric fixes the by.strata bug
 
@@ -198,6 +199,7 @@ write.csv(overall.struct, file = ovl.fname)
 write.csv(pws.results, file = pws.fname)
 write.csv(PhiST_mat, file = pairwise.mat.fname)
 
+######################################################################
 # dA for NAtl vs. other
 g <- stratify(CR.g, scheme = 'NAtl_vs_Other')
 g@description <- paste0('Pcra.CR.', scheme)
@@ -219,5 +221,8 @@ write.csv(taxonomic_status,
 
 CR_Tajima_D <- tajimasD(CR.g)
 mito_Tajima_D <- tajimasD(mito.g)
-CR_Fu <- fusFs(CR.g)
-mito_Fu <- fusFs(mito.g)
+
+CR_overall_smry <- summarizeLoci(CR.g)
+CR_Fu <- afufs(n = CR_overall_smry$num.genotyped, k = CR_overall_smry$num.haplotypes, theta = CR_overall_smry$haplotypic.diversity)
+mito_overall_smry <- summarizeLoci(mito.g)
+mito_Fu <- afufs(n = mito_overall_smry$num.genotyped, k = mito_overall_smry$num.haplotypes, theta = mito_overall_smry$haplotypic.diversity)

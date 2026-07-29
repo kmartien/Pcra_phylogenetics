@@ -104,35 +104,41 @@ names(fill_colors) <- fill_colors
 show_col(fill_colors[!is.na(fill_colors) & fill_colors != "none"])
 
 color_map <- fill_colors
-color_map[3:7] <- viridis_pal()(5) #N_Alantic thru NPac_Western
-color_map[3] <- "#481568"
-color_map[8] <- "#caa611" # NPac_Central
-color_map[9] <- "#E5C61BFF" # NPac_Eastern
-color_map[10] <- "#BEBEBE" #MHI, will add cross-hatching
-color_map[11] <- "#BEBEBE" #NWHI, will add cross-hatching
-color_map[12] <- "#666666" #Aus resident, will add cross-hatching
-color_map[13] <- "white" #Unknown
+# color_map[3:7] <- viridis_pal()(5) #N_Alantic thru NPac_Western
+# color_map[3] <- "#481568"
+# color_map[8] <- "#caa611" # NPac_Central
+# color_map[9] <- "#E5C61BFF" # NPac_Eastern
+# color_map[10] <- "#BEBEBE" #MHI, will add cross-hatching
+# color_map[11] <- "#BEBEBE" #NWHI, will add cross-hatching
+# color_map[12] <- "#666666" #Aus resident, will add cross-hatching
+# color_map[13] <- "white" #Unknown
+color_map[3:13] <- broad_stratum_colors
+ color_map[10] <- "#4D4D4D" #MHI, will add cross-hatching
+ color_map[11] <- "#CCCCCC" #NWHI, will add cross-hatching
+ color_map[12] <- "#7F7F7F" #Aus resident, will add cross-hatching
 show_col(color_map[color_map!= "none"])
 
-# Function to replace colors
+# Robust Case-Insensitive Color Replacement Function
 replace_colors <- function(svg, color_map) {
   for (old_color in names(color_map)) {
-    new_color <- color_map[old_color]
+    new_color <- unname(color_map[old_color])
+    if (is.na(old_color) || old_color == "none") next
     
-    # Replace in fill attributes
-    fills <- xml_find_all(svg, sprintf("//*[@fill='%s']", old_color))
+    # Match both lowercase and uppercase hex in XML attributes
+    fills <- xml_find_all(svg, sprintf("//*[@fill='%s' or @fill='%s']", 
+                                       tolower(old_color), toupper(old_color)))
     xml_set_attr(fills, "fill", new_color)
     
-    # Replace in stroke attributes
-    strokes <- xml_find_all(svg, sprintf("//*[@stroke='%s']", old_color))
+    strokes <- xml_find_all(svg, sprintf("//*[@stroke='%s' or @stroke='%s']", 
+                                         tolower(old_color), toupper(old_color)))
     xml_set_attr(strokes, "stroke", new_color)
     
-    # Replace in style attributes (sometimes colors are in CSS style)
+    # Case-insensitive replacement inside CSS style attributes
     styled <- xml_find_all(svg, "//*[@style]")
     for (node in styled) {
       style <- xml_attr(node, "style")
-      if (!is.na(style) && grepl(old_color, style, fixed = TRUE)) {
-        new_style <- gsub(old_color, new_color, style, fixed = TRUE)
+      if (!is.na(style) && grepl(old_color, style, ignore.case = TRUE)) {
+        new_style <- gsub(old_color, new_color, style, ignore.case = TRUE)
         xml_set_attr(node, "style", new_style)
       }
     }
@@ -148,66 +154,66 @@ write_xml(svg_modified, paste0('PopArt/', network_name, '_recolored.svg'))
 rsvg_pdf(paste0('PopArt/', network_name, '_recolored.svg'), 
          file = paste0('PopArt/', network_name, '_final.pdf'))
 
-#######################################################
-# Add cross-hatching to the resident strata
-# Define a pattern (this needs to go in a <defs> section)
-svg <- read_xml(paste0('PopArt/', network_name, '_recolored.svg'))
-
-target_colors <- c("#C9A511", "#22948FFF")
-
-# Remove any existing patterns first
-defs <- xml_find_first(svg, "//defs")
-if (length(defs) > 0) {
-  for (i in 1:2) {
-    existing_pattern <- xml_find_first(defs, sprintf("//pattern[@id='diagonalHatch%d']", i))
-    if (length(existing_pattern) > 0) {
-      xml_remove(existing_pattern)
-    }
-  }
-}
-
-# If no defs, create one
-if (length(defs) == 0) {
-  svg_root <- xml_root(svg)
-  defs <- xml_add_child(svg_root, "defs", .where = 0)
-}
-
-# Create patterns for each color
-for (i in seq_along(target_colors)) {
-  pattern_str <- sprintf('
-<pattern id="diagonalHatch%d" patternUnits="userSpaceOnUse" width="6" height="6">
-  <rect width="6" height="6" style="fill:%s;stroke:none"/>
-  <line x1="0" y1="6" x2="6" y2="0" style="stroke:black;stroke-width:1"/>
-  <line x1="-1" y1="1" x2="1" y2="-1" style="stroke:black;stroke-width:1"/>
-  <line x1="5" y1="7" x2="7" y2="5" style="stroke:black;stroke-width:1"/>
-</pattern>', i, target_colors[i])
-  
-  pattern_node <- read_xml(pattern_str)
-  xml_add_child(defs, pattern_node)
-}
-
-# Find and apply patterns for each color
-all_elements <- xml_find_all(svg, "//*")
-
-for (i in seq_along(target_colors)) {
-  target_color <- target_colors[i]
-  elements_to_pattern <- list()
-  
-  for (j in seq_along(all_elements)) {
-    elem <- all_elements[[j]]
-    attrs <- xml_attrs(elem)
-    
-    if (any(grepl(target_color, attrs, fixed = TRUE))) {
-      elements_to_pattern[[length(elements_to_pattern) + 1]] <- elem
-    }
-  }
-  
-  print(paste("Found", length(elements_to_pattern), "elements for color", target_color))
-  
-  for (elem in elements_to_pattern) {
-    xml_set_attr(elem, "fill", sprintf("url(#diagonalHatch%d)", i))
-  }
-}
-
-write_xml(svg, paste0('PopArt/', network_name, '_with_patterns.svg'))
-cat("Cross-hatching applied to both colors!\n")
+# #######################################################
+# # Add cross-hatching to the resident strata
+# # Define a pattern (this needs to go in a <defs> section)
+# svg <- read_xml(paste0('PopArt/', network_name, '_recolored.svg'))
+# 
+# target_colors <- c("#C9A511", "#22948FFF")
+# 
+# # Remove any existing patterns first
+# defs <- xml_find_first(svg, "//defs")
+# if (length(defs) > 0) {
+#   for (i in 1:2) {
+#     existing_pattern <- xml_find_first(defs, sprintf("//pattern[@id='diagonalHatch%d']", i))
+#     if (length(existing_pattern) > 0) {
+#       xml_remove(existing_pattern)
+#     }
+#   }
+# }
+# 
+# # If no defs, create one
+# if (length(defs) == 0) {
+#   svg_root <- xml_root(svg)
+#   defs <- xml_add_child(svg_root, "defs", .where = 0)
+# }
+# 
+# # Create patterns for each color
+# for (i in seq_along(target_colors)) {
+#   pattern_str <- sprintf('
+# <pattern id="diagonalHatch%d" patternUnits="userSpaceOnUse" width="6" height="6">
+#   <rect width="6" height="6" style="fill:%s;stroke:none"/>
+#   <line x1="0" y1="6" x2="6" y2="0" style="stroke:black;stroke-width:1"/>
+#   <line x1="-1" y1="1" x2="1" y2="-1" style="stroke:black;stroke-width:1"/>
+#   <line x1="5" y1="7" x2="7" y2="5" style="stroke:black;stroke-width:1"/>
+# </pattern>', i, target_colors[i])
+#   
+#   pattern_node <- read_xml(pattern_str)
+#   xml_add_child(defs, pattern_node)
+# }
+# 
+# # Find and apply patterns for each color
+# all_elements <- xml_find_all(svg, "//*")
+# 
+# for (i in seq_along(target_colors)) {
+#   target_color <- target_colors[i]
+#   elements_to_pattern <- list()
+#   
+#   for (j in seq_along(all_elements)) {
+#     elem <- all_elements[[j]]
+#     attrs <- xml_attrs(elem)
+#     
+#     if (any(grepl(target_color, attrs, fixed = TRUE))) {
+#       elements_to_pattern[[length(elements_to_pattern) + 1]] <- elem
+#     }
+#   }
+#   
+#   print(paste("Found", length(elements_to_pattern), "elements for color", target_color))
+#   
+#   for (elem in elements_to_pattern) {
+#     xml_set_attr(elem, "fill", sprintf("url(#diagonalHatch%d)", i))
+#   }
+# }
+# 
+# write_xml(svg, paste0('PopArt/', network_name, '_with_patterns.svg'))
+# cat("Cross-hatching applied to both colors!\n")
